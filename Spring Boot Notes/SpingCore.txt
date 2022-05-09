@@ -1,0 +1,23 @@
+								Spring
+_______________________________________________________________________________________________________________________________________________________________________
+
+>> Spring is a Dependency Injection to make java application loosely coupled.
+
+>> Dependency Injection: It is a design pattern which is used to remove dependency to create object of different class in a different class by using external code.
+
+	Ex:
+		class A {					class B {
+			B b;						public void doWork() {
+
+									}
+			public void doWork() {			}
+
+			
+			}	
+		}
+
+** Here the class A is tightly coupled as it is dependent on B. So, by using dependency injection spring automatically creates an object.
+
+>> Inversion of Control (IOC): The process of giving control to spring for automatically create object is called IOC.
+
+

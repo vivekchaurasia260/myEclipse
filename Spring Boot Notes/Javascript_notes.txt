@@ -1,0 +1,16 @@
+									Javascript
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>> Javascript follows ECMA script standard.
+
+>> Javascript engine is a computer program that executes javascript code.
+
+>> 
+
+
+
+
+
+
+
+
+

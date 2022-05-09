@@ -1,0 +1,334 @@
+
+
+1. Lambda Expressions:
+
+>> The main objective of lambda exp is to bring benefits of functional programming into java.
+
+Q. What is lambda expression ?
+A. It is an anonymous function
+	anonymouse means : Nameless
+			   without return type
+			   without modifiers
+Ex1: Lambda Exp:								Ex1: Normal way	
+
+		() -> {									public void m1() {
+			System.out.println("Hello");						System.out.println("Hello);	
+		  }									}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ex2: 										Ex2:
+	(a, b)-> System.out.println(a+b);					public void m1(int a, int b) {
+											System.out.println(a+b);
+										}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Here if we want to use return keyword in single line lambda exp then we need to put in curly braceses but if we use single line without braces then return keyword not required.
+
+Ex3: 										Ex3:
+	(n) -> n*n;								public int squareIt(int n) {																			return n*n;
+										}
+
+// If only one parameter is avaiable in method then paranthesis are optional to use. We can remove both parentheis as it is optional.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>> Functional Interface: The interface which contains single abstract method is called functional interface.
+	Ex: Runnable(run()), Comparable(compareTo), Comparator(compare()), ActionListener(actionPerformed()), Callable(call())
+
+>> If we want to invole Lambda Exp compulsory functional interface is required.	
+
+>> After 1.8 version we can take default and static methods.
+
+>> But in functional interface we can take any number of static and default method but it should contain only one abstract method(SAM).
+
+Ex:	@FunctionalInterface
+	interface A
+	{
+		public void m1();			// for functional interface there should be one abstract method available and default and static methods are 							   optional.
+	}
+	
+	@FunctionalInterface				// This B interface is also valid because internally it has parent class A method.
+	interface B extends A {
+		// public void m1(); -----------------------> If we override m1() method that also will be valid beacause it is overriding from parent.
+		
+		// public void m2(); -----------------------> If we write only m2() method then it will give compile time error because we can not use two abstract 							      	      method in Functional Interface.
+	}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>> Lambda Expression with Functional Interfaces:
+
+Ex:	interface Interf {
+		public int squareIt(int n);
+	}
+	class Test {
+		psvm(String[] args) {
+			Interf i = n->n*n;
+			Sysout(i.squareIt(10);	// 100
+			Sysout(i.squareIt(3);	// 9
+		}
+	}
+
+>> No .class file will be generated for lambda exp.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>> Anonymous inner class is more powerful than Lambda Expression because whereever we implement anonymous inner class we can not use lambda exp but wherever lambda exp is there happily we can use anonymous inner class.
+
+Ex:	interface A {
+		public void m1(); ------------	Here 2 abstract methods are there that's why we can't use lambda expression but we can use anonymous inner class.	
+		public void m2(); ------------
+	}
+
+	A a = new A() {			_
+		public void m1() {	|
+					|
+		}			|
+		public void m1() {	|----------------------> this is anonymous class.
+					|
+		}			|
+	};				|
+					-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Default Methods: After 1.8v we can also use default methods inside interface.
+
+Related methods: 
+	1.8v : default + static methods are allowed in interface.
+	1.9v : private methods are also allowed in interface.
+
+variables: Every variable present in interface is always  
+	
+>> If we want to add new method in the interface without affecting the implemented classes. We should go for default method beacuse we can define it in the interface.
+
+>> We can't declare Object class methods as default method because the object class method is always available for implemented classes.
+
+>> If we declare static method inside the interface by default it will not available to the implemented class. So, we need to call it by using interface name.
+	
+	Ex:	interface Interf {
+		
+			public static void m1() {
+				Sysout("Interface static method");
+			}
+		}
+
+		class Test implements Interf {
+			psvm() {
+				Interf.m1(); ---------------- Correct
+				m1(); ----------------------- Incorrect
+				Test t = new Test();
+				t.m1();---------------------- Incorrect
+			
+			}
+		}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Predefined Functional Interfaces:
+---------------------------------
+-> Predicate(I)(use for conditional checks like if-else): It contains only one abstract method that's why it is functional interface.
+							  Predicate will always takes one parameter and it return only boolean value.`
+	method: public abstract boolean test(T t);
+	Ex:
+		public class PredicateFunction {
+			public static void main(String[] args) {
+		
+				Predicate<Integer> p = (I1)->I1%2==0;
+				System.out.println(p.test(10));
+				System.out.println(p.test(13));
+			}
+		}
+
+>> We can join multiple predicate to check multiple conditions.
+
+			
+-> Function(I)(when result need not be boolean, it will either interger or string): It contains only one abstract method that's why it is functional interface.
+										Function will always take two parameter and it return different return types.
+	method: public abstract R apply(T t);						
+	Ex: 										class Test{
+		interface Function<T,R>								psvm(String[] args) {			
+		{											Function<Integer, Integer> fn=i1->i1*i1;
+			public R apply(T t);								Sysout(fn.apply(4));	//16				
+		}											Sysout(fn.apply(7));	//49
+												}	
+											}										>> Function Chaining is possible: 
+	f1.andThen(f2).apply(i); // In this case first f1 follwed by f2.
+
+	f1.compose(f2).apply(i); // In this case first f2 follwed by f1.
+
+	
+-> Consumer(I)(It never going to return anything(void)): It contains only one abstract method that's why it is functional interface.
+							Consumer will always take one parameter and won't return anything.
+	method: public abstract void accept(T t);
+	Ex: 
+		interface Consumer<T> {
+			public void accept(t);
+		}
+>> It is used for printing purpose.
+
+>> We can also do consumer chaining by using andThen().
+
+-> Supplier(I)(It never take any argument it just simply supply):It contains only one abstract method that's why it is functional interface.
+							Supplier won't take any one parameter and return the object.
+	
+	method: public abstract R get();
+	Ex:
+		interface Supplier<R> {
+			public R get();
+		}
+
+>> It is used to retrieve the data of object type.
+
+------------------------------------------------------------------------------------
+
+Predicate------> test(I1);
+Function-------> apply(I1, I2);
+Consumer-------> accept(I1);
+Supplier-------> get();
+
+
+---------------------------------
+Two argument Predefined Functional Interfaces:
+----------------------------------------------
+-> BiPredicate - If two input arguments are there then we should go for biPredicate for conditional check.
+	Ex:
+		interface BiPredicate<T1, T2> {
+			public boolean test(T1 t1, T2 t2);
+
+			// remaining default and static methods are same.
+		}
+
+-> BiFunction - If two input arguments are there then we should go for biFunction.
+	Ex:
+		interface BiFunction<T1, T2, R> {
+			public R apply(T1 t1, T2 ,t2);
+		}
+
+
+-> BiConsumer - If two input arguments are there then we should go for biConsumer.
+	Ex:
+		interface BiConsumer {
+			public void accept(T1, T2);
+		}
+
+---------------------------------
+primitive Functional interfaces:
+---------------------------------
+Primitive Predicate Types:
+-> IntPredicate
+-> DoublePredicate
+-> LongPredicate
+---------------------------------
+Primitive Function Types:
+-> IntFunction
+-> DoubleFunction
+-> LongFunction
+-> DoubleToIntFunction
+---------------------------------
+Primitive Consumer Types:
+-> IntConsumer
+-> DoubleConsumer
+-> LongConsumer
+......
+
+https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Method and Constructor reference
+
+>> Method Reference: We are re-using already existing methods by using reference(::).
+--------------------
+>> It is an alternative way of lambda expression. We can take static as well as dynamic method.
+
+>> We can refer the method with any method by using (::)
+
+ex: 
+	class Test {
+
+		public static void m1() {
+			for(int i=0; i<5; i++) {
+				Sysout("Child thread");
+			}
+			
+		}
+
+		psvm(String[] args) {
+			
+			Runnable r = Test::m1();
+			Thread t = new Thread(r);
+			t.start();
+			for(int i=0; i<5; i++) {
+				Sysout("Parent Thread");
+			}
+		}
+	}
+
+>> The argument must be same to the method which are taking the reference.
+
+>> In method reference different return types are allowed.
+
+>> If implementation is already available then go for method reference. If implementation is not there then go for lambda expression.
+
+>> Constructor Reference: 
+-------------------------
+>> We can also give constructor reference by same way.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>> Streams: 
+-----------
+>> Collection: If we want to represent a group of individual objects as a single entity then we should go for stream.
+
+>> Stream: If we want to process objects from the collection.
+
+>> Methods of streams are: filter(predicate), map(function), collect(), count(It is used to count the element in the stream), sorted(to sort is natural order(ASC)).
+
+>> min(), max() these two method will give min and mx element in the list based on sorting order.
+
+>> forEach(Consumer) is a method which is used to iterate each object one by one.
+
+>> We can also convert stream to array by using toArray();
+
+>> Stream.of() is used where ever group of elements is there.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>> Date and Time API(Joda API): This api is developed by joda api.
+
+	Ex: LocalDate date = LocalDate.now();----------> return the current date.
+	    LocalTime time = LocalTime.now();----------> return the current time.
+
+>> We can modify date format with our own:							
+	Ex: 	LocalDate date = LocalDate.now();							
+													
+//		LocalTime time = LocalTime.now();							
+													
+		System.out.println(date);								
+													
+		int dd=date.getDayOfMonth();							
+		int mm=date.getMonthValue();								
+		int yyyy=date.getYear();							
+	
+>> If we want to get both date and time simultaneously then:
+	Ex: LocalDateTime dt = LocalDateTime.now();
+	    Sysout(dt);-------------> gives the current date and time.
+
+>> By using LocalDateTime we can also give our own dates..
+
+>> Year class in which there are various methods like to check for leap year. i,e isLeap();
+
+>> For International time zone we use Zoned class.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>> Optional Class: This feature is implemented in java 8 because it is used to avoid or handle NullPointerException(Unchecked).
+
+>> It is a container or Wrapper which is used to represent the value which is stored in it or without store
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

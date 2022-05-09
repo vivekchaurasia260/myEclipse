@@ -1,0 +1,134 @@
+								Exception Handling
+___________________________________________________________________________________________________________________________________________________________________
+
+>> The unwanted event that disturbs the normal flow of program is called Exception.
+
+>> What is the meaning of Exception Handling ?
+>> Defining alternative way to continue rest of the program normally.
+
+>> First line of every constructor is either super() or this(). If we not provide any super or this then compile will automatically places in the constructor.
+
+>> We can't use both simultaneouly. We can use any one on first line.
+
+>> Exception Hierarchy:
+		-> Throwable
+			|- Exception: It is caused by our program. Exceptions are recoverable by using try-catch block.
+			|- Error: It is caused by due to lack of system resources. It is non-recoverable.
+			| 	Ex: Out of Memory Fail, System Fail
+
+
+>> Difference between checked and unchecked exceptions ?
+
+>> Checked Exception: The Exceptions check by compiler at compile time to run a program smoothly at run time.
+	Ex: FileNotFoundException, IOException.
+
+	Ex:	class Test {
+			psvm() {
+				PrintWriter pw = new PrintWriter("abc.txt");
+				pw.println("Hello");	
+			}
+		}
+	
+	// Here at compile time compiler gives (unreported exception FileNotFoundException; must be caught or declared to be thrown)
+	// It is throwing error because there is possibility that file does not exist so, compiler asked to add handler.
+
+>> UnChecked Exception: This type of exceptions are not checked at compile time at run time we need to handle it.
+	Ex: Arithmetic Exception, IndexOutOfBoundException.
+	
+	Ex: 	class Test {
+			psvm() {
+				Sysout(10/0);	// It will give Arithmetic Exception at run time.
+			}
+
+		}
+
+>> Errors and Runtime Exception are Unchecked exceptions.
+
+>> Difference between Fully checked and Partially checked exceptions ?
+
+>> Fully Checked: If parent is checked and its child is also checked then such type of exception are called fully checked exception.
+	Ex: IOException, InterruptedException
+
+>> Partial Checked: If parent class contains both checked and unchecked exception such type of exception are called partially checked.
+	Ex: Exception, Throwable
+
+>> There is only two partially checked exceptions are there in java i.e, Exception and Throwable.
+
+>> Inside try-catch block we need to write only risky codes because after getting exception the control directly goes to catch block to handle that means next line   	   after exception in try block won't execute.
+
+>> The length of code in try block should be as minimum as possible.
+
+>> There are 3 methods to print exception information.
+	-> e.printStackTrace();
+	-> e.toString();
+	-> e.getMessage();
+
+>> All these methods are present in Throwable class. So, by default it will present all exception classes and error classes.
+
+>> If we using try block with mutliple catch block then order is very important. (Child ----> parent)
+
+>> It is not recommended to write clean-up code inside try block because if exception occurs just above clean up code then the control will move to catch block.
+
+>> Writing clean up code inside catch-block is also not recommended beacuse if there is no exception in try block then the catch block could not execute.
+
+>> It is always recommended to write clean up code or close statements in finally block beacuse it will always execute.
+
+>> There is only one way in which finally block won't executed i.e, by using System.exit(0);
+
+>> by using System.exit(0); JVM itself is shut down and line of code will execute.
+
+>> In Nested try-catch if exception occurs in inner try block and the exception is not matched with inner catch block then the control moved to outer catch block.
+
+>> We can not use two catch block for the same exception.
+
+>> We can use try-finally without catch.
+
+>> throw keyword is applicable only for Exceptions and Errors.
+
+>> after throw we should not write any statement. if we add then compile gives unreachable statement error.
+
+-> Throws: 
+
+>> We can use throws keyword only with Throwable types.
+>> But if we extends the Throwable or Exception or RuntimeException class then class becomes child and no issue we will get on compilation.
+>> We can not use throw keyword with checked exception because it is meaning less beacuse if are gettign checked exception then it should handle by try-catch or by        throws keyword.
+    Ex: class Test { 
+		psvm(String[] args) {				// CE: unreported exception; must be caught or declare to be thrown
+		    throw new Exception();
+		}
+        }
+
+>> In unchecked exception we won't get any compile time error but at run time we get error.
+
+>> We cannot type cast Parent object into child class. We will get ClassCastException.
+
+>> Every java program has a thread called main thread. For each thread JVM will create run time stack if stack is full then stackoverflow Exception will come.
+
+>> If we get exception in static block or static variable then it is called ExceptionInInitializerError.
+
+>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

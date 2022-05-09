@@ -1,0 +1,5 @@
+
+-- Query to find ranches...
+
+SELECT Top 10 [TrnsRanchNbr] FROM [MDR].[dbo].[AllTrnsRanchExtended] where TrnsRanchNbr in (SELECT [TrnsRanchNbr]
+FROM [MDR].[dbo].[AllTrnsRanchWarehouse] where WarehouseNbr = '0139') and OverallStatus = 'Open'

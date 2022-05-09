@@ -1,0 +1,77 @@
+								HAS-A Relationship
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ex: class {					class {
+	Engine e = new Engine();			
+							// engine class functionality...
+
+    }						}
+
+// Car class HAS-A reference engine..
+
+1. HAS-A is also known as Composition | Aggregation
+2. There is no specific keyword to implement HAS-A but most of the time we use new.
+3. Main advantage is reusuablity(write engine class only once and use its functionality anywhere n number of time)
+
+
+							Difference between Composition and Aggregation
+						--------------------------------------------------------------
+
+-> Composition: Without existing container object if there is no chance of existing contained objects then container and contained objects are strongly associated and    this strong association is nothing but composition.
+
+Ex: University consists of sevral departments without existing university there is no chance of existing departments. Hence, university and departments are strongly        associated under this strong association is nothing but composition.
+
+-> Aggregation: Without existing container object if there is chance of existing contained objects then container and contained objects are weakly associated and                  	this weak association is nothing but aggregation.
+
+Ex: Department consists of sevral professors without existing department there may be a chance of existing professor objects. Hence, department and professor objects
+    are weakly associated and this weak association is nothing but aggregation.
+
+Note:
+** In composition objects are strongly associated whereas in aggregation objects are weakly associated.
+
+** In composition container objects holds directly contained objects whereas in aggregation container object holds just references of contained objects.
+
+
+								IS-A vs HAS-A
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>> If we want total functionality of a class automatically then we should go for IS-A relationship.
+
+>> If we want part of the functionality then we should go for HAS-A relationship.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

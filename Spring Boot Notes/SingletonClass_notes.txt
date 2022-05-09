@@ -1,0 +1,71 @@
+					Singleton Class
+
+>> For any java class if we are allow to create only one object such type of class called Singleton class.
+	Ex: Runtime, BusinessDelegate, ServiceLocator etc.
+
+>> Advantage of Singleton classes
+
+>> To improve performance of the system and to memory utilization.
+
+>> If sevral people have same requirement then it is not recommnended to create a seprate object    for every requirment.
+
+>> We have to create only one object and we can reuse same object for every similar requirement       so that performance and memory utilization will be improved. This is the central idea of       singleton classes.
+
+>> We can not create singleton class by using costructor or new operator because if we allow to use    constructor then we can create as many as we want.
+
+>> We can create it by factory method.
+
+>> Ex: Runtime r1 = Runtime.getRuntime(); -------------> it will create only one object and if we create another then same object reff it will take.
+
+-----------------------------------------------------------------------------------
+
+>> How to create our own singleton classes.
+
+>> We can create our own singleton classes for this we have to use private constructor and private static variable and public factory method.
+
+>> 1st approach: (by using private constructor): 
+	
+	Ex: class Test {
+		private static Test t = new Test();
+	    }
+	    private Test() {
+		Sopln("This is private constructor");
+	    }
+	    public static Test getTest() {
+		return t;
+	    }
+	    public static void main(String[] args) {
+		Test t1 = Test.getTest();
+	    }	
+
+>> Note: Runtime class is internally implemented by using above appoach(private constructor).
+
+>> 2nd approach: 
+	
+ 	Ex: class Test {
+		private static Test t = null;
+	    }
+	    private Test() {
+		Sopln("This is private constructor");
+	    }
+	    public static Test getTest() {
+		
+		if(t==null) {
+			t=new Test();
+		}
+		
+		return t;
+	    }
+	    public static void main(String[] args) {
+		Test t1 = Test.getTest();
+	    }
+
+>> At any point of time for test class we can create only one object. Hence, Test class is singleton class.
+
+
+
+
+
+
+
+

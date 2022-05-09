@@ -1,0 +1,125 @@
+									Hibernate NOTES
+______________________________________________________________________________________________________________________________________________________________________
+
+>> Hibernate is a java framework that simplifies the development of java application to interact with the database.
+
+>> Hibernate is ORM(Object Relational Mapping) tool.
+
+>> Hibernate is an Open source, lightweight.
+
+>> Hibernate is a non-invasive framework, means it won't forces the programmers to extend/implement any class/interface.
+
+>> It is invented by Gavin king in 2001.
+
+>> Any type of application can build with Hibernate Framework.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>> What is SessionFactory ?
+
+>> It is type of connection. It is an interface.
+
+>> Transaction requires only when we need to save the object.
+
+
+>> Commonly used Annotations:
+
+>> @Entity: It is like a batch which is used to represent table name and hibernate use this Entity to create a table in DB.
+
+>> @Table: It is used to change the table detail.
+
+>> @Id: Use to mark the column as id(primary key)
+
+>> @GeneratedValue: hibernate will automatically generate values for that using an internal sequence. Therefore, we don't have to set it manually.
+
+>> @Column: Can be used to specify column mappings. For example, to change the column name in the associated table in database.
+
+>> @Transient: This tell hibernate not to save this field.
+
+>> @Temporal: Temporal over a date field tells hibernate the format in which the date needs to be saved.
+
+>> @Lob: Lob tells hibernate that this is a large object, not a simple object.
+
+>> @OneToOne, @ManyToOne, @JoinColumn, @OneToMany
+
+>> @Embeddable: It is use to embed the other class field into other class or we can create other class fields as column in other class in DB.
+		Ex: (We can create columns of Certicate class fields/object in Student table by using this annotation)
+
+>> @JoinColumn: It is used to change the name of mapped column in DB.
+
+>> @JoinTable: It is used to change the name of mapped table in DB.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>> Steps to insert object in DB
+	-> Create class with different fields (Ex: Student class)
+	-> In the configure xml file map the class with hibernate
+	-> In main class create SessionFactory(It is an interface) by using configuration call.
+		(Ex: Configuration con = new Configuration();
+			con.configure();
+			SessionFactory factory = con.buildSessionFactory();
+
+
+	// Now saving the object(ex: Student)
+	// We need to get current session to start Transaction
+	-> Session session = factory.getCurrentSession();
+	// Now we need to begin the transaction
+	-> Transaction tx = session.beginTransaction();
+	// saving the object
+	-> session.save(object_name);
+	// commiting the object
+	-> tx.commit();
+	// closing of session object and Session Factory
+	-> session.close();
+	-> factory.close();
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>> Fetching the data in Hibernate?
+>> We can fetch the data in hibernate by using the get or load method. The difference between both are on slide(1).
+>> In get(Entity<Type>, primary_key) we give.
+
+>> In OneToOne mapping if we want bi-directional then we need to map both tables.
+
+>> By using mappedBy we can mapped only single id in the table.
+   (The name which are given in the mappedBy have all the control of mapping)
+
+>> Fetch Type : LAZY Loading: In Lazy loading, associated data loads only when we explicitly call getter or setter method.
+		EAGER Loading: It is a design pattern in which data loading occurs on the spot.
+
+	>> EAGER Loading: It will execute query of all the related join tables when we retreive data of single table.
+	>> LAZY : It will execute query when you use getter. It will not pre-execute query of join tables.
+
+
+>> Hibernate/Persistence lifecycle states: There four states in Hibernate
+	
+	Transient State -> Persistent State ->  Detached State -> Removed State
+
+
+>> HQL(Hibernate Query Language): It is similar to Sql only difference is here we are passing fields as column while writing query.
+
+>> To interacting with DB we need SessionFactory and Session object to perform operation on DB.
+
+>> Hibernate Pagination is getting records based to index(id) on per page in DB and also get maximum result from DB.
+
+>> Cascading in Hibernate is used to perform various operation of relative tables.
+	Type of cascading are : DETACH, MERGE, PERSIST, REMOVE, REFRESH.
+
+>> Caching in Hibernate: Caching is a mechanism to enhance the performance of a Application.
+
+>> Caching is use to reduce the number of database queries.
+
+>> There are two types of caching in Hibernate:
+	-> First Level caching: It is associated with Session object.
+	-> It is provided by default.
+	
+	-> Second Level caching: It is associated with SessionFactory object.
+	-> In this we need to Manually enable.
+
+>>
+
+
+
+
+
+https://www.youtube.com/watch?v=ogcSkMhZVJg&list=PL0zysOflRCelmjxj-g4jLr3WKraSU_e8q&index=24 - spring

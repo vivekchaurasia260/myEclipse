@@ -1,0 +1,174 @@
+								SPRING BOOT NOTES
+______________________________________________________________________________________________________________________________________________________________________
+
+
+>>@RequestMapping: We can use this is on entire class or in method. It is used to map the handler(method/class) to the URL.
+
+Note: Spring only marks the default methods of the CrudRepository interface as transactional, so any custom method that we are defining won't be managed by Entity       Manager. So, to make it reconisable we can use @Transactional annotation.
+
+>> @Trasactional:
+
+>> Whenever we are modifying record in DB we need to add Transactional and modifying annotations(When we are performing operation on DB by using Query annotation).
+
+>> @Modifying: It is used to instruct spring data that this is a modifying query and allow DML operations.
+
+>> JPA(Java Persistence API): It is a ORM(Object Relation Mapping) tool.
+
+>> JPA provides two interfaces: EntityManagerFactory, EntityManager.
+
+>> 
+
+>> ORM: It is a mediator between java application and Database. If we want to store record in DB then ORM convert object into data to insert into database and if we 	want to retreive data from DB then it will convert data into object.
+
+>> For Database related we need to create repository interface which needs to inherit Crud repository or JPA repository.
+
+>> By creating repo(Ex: User) we can perform crud operations in out DB.
+
+>> For Database connections we need to give database name, URL, username, password, driver-class name(com.mysql.cj.jdbc.Driver), dialect(based on your MySQL version) 	   in application.properties file.
+
+>> If you want to auto create table in database then give (spring.jpa.hibernate.ddl-auto=update) in application.properties file.
+
+>> We can create custom methods to perform custom operations. But we need to create custom method with logical names and spring boot will handle the internal implement    for more detail visit supported keywords for method names(https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference).
+
+>> In spring boot we can use JPQL(Java Persistence Query Language) or Native Query by using Query annotation
+
+>> JPQL is similar to HQL.
+
+>>  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+							API(Application Programming Interface)
+
+>> It is a set of rules that allow programs to talk to each other. The developer creates the API on the server and allows the client to talk to it.
+
+>> API is basically used by 3rd parties(client) to send a request to server to get a response.
+
+>> Ex: Makemytrip calling API of indigo or spice jet to get flight detail from their database.
+
+>> A set of constraint to be used for creating web services(Api)
+	-> Client-Server
+	-> Stateless (It can not record any info of client)
+	-> Cacheable (It stores the action to increase performance)
+	-> Layered (req can send from any server)
+
+>> REST API method : GET(Retrieve), PUT(Update), POST(Create), DELETE(Delete)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 								Spring boot DevTools
+
+>> DevTools stands for Developer tool. The aim of the module is to try and improve the development time while working with the spring boot application. Spring boot devtool pick up the changes and restart the application.
+
+>> We need to add dependency of the dev tool.
+
+>> Features:
+	-> Property Defaults
+	-> Automatic Restart
+	-> Live Reload
+	-> Remote Applications
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+								Creating a REST API Using Spring boot
+
+>> We can create Rest Api by using RestController method(by using this annotation we don't need to use RequestMapping annotation springboot automatically handle)
+
+>> @Autowired : This annotation is used for creating an object of a class in which we are wired (by creating class variable we can use this annotation).
+
+>> @PathVariable: This annotation is used for storing the parameter/value from the server.
+
+>> @RequestBody: This annotation is used to store the data coming from server or sending the data to the server as the server understands the data in JSON format this     annotation automatically converts the data to JSON format or it convert JSON into object.
+
+>> 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>> If we use bidirectional mapping in our entity then there is a problem that while fetching it will go inside infinte loop.
+	Ex: There is two entities Book and Author table and both are having oneToOne bidrectional mapping. If we send a req for get request for book id 6 then it will 	    fetch the book object then go inside author object then in object move to book and so on.....
+
+>> We can overcome this problem by using @JsonManagedReference and @JackBackReference.
+
+>> @JsonManagedReference:
+
+>> @JsonBackReference: 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 								File uploading in spring boot
+>> We can upload file/image by using static as well dynamic paths.
+
+>> If we use static path then it will work for the same system only because we need to give location manually.
+
+>> If we use dynamic path then it work for all systems.(Beacause it will create same folder under resource folder).
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+								Thymeleaf
+>> Thymleaf is a modern server-side java template engine for both web and standalone environments, capable of processing HTML ,XML, JavaScript, CSS and even plain text.
+
+>> It is more powerful than JSP.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+						How to use Thymeleaf in Eclipse
+>> We need to install plugin in eclipse before using it.
+
+>> 
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+							Condition in Thymeleaf
+
+>> Elvis Operator				>> If-Unless					>> Switch-Case
+
+Ex: condition?true:false;			It is like if-else.				It is similar to java switch case only difference is for default case
+						When condition is true then			we need to put (*) in case.
+We can use variable in controller		if statement will execute.
+class by using '${}'.				In unless when condition is
+						false then only it will execute.	
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+							Fragements in Thymeleaf
+
+>> include: It will also insert the specified fragment as the body of it's host tag but excluding the fragment.
+
+>> replace: It will actually substitute the host tag by fragment's. That means it will remove host tag and in place of host tag, it will add the specified fragment 	    including the fragement tag.
+
+>> insert: It will simply insert the specified fragment as the body of its host tag including the fragment tag.
+
+>> By using fragments we can inherit properties of different pages on a single page.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>>
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
