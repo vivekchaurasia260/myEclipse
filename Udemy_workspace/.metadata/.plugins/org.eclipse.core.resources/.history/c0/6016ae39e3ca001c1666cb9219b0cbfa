@@ -1,0 +1,17 @@
+package StringProblem;
+
+public class RemoveChar {
+
+	public static void main(String[] args) {
+		
+		String str="GeeksforGeeks";
+		
+		char ch='e';
+		
+		System.out.println("Original String is " + str);
+		
+		System.out.println("The result String is " +removeCharacter(str, ch));
+		
+	}
+
+}

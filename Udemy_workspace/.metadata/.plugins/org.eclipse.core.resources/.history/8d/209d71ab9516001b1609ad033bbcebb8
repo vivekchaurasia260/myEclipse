@@ -1,0 +1,12 @@
+
+public class SecondAndMinuteChallenge {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	public static void getDurationString(int minutes, int seconds) {
+		
+	}
+}

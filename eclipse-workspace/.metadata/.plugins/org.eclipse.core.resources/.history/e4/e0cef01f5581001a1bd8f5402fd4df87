@@ -1,0 +1,22 @@
+package DefaultPackage;
+
+import java.util.Stack;
+
+public class MinStack {
+	
+	Stack<Integer> stack;
+	
+	MinStack() {
+		stack=new Stack<Integer>();
+	}
+
+	public static void main(String[] args) {
+		
+		Stack<Integer> stack = new Stack<Integer>();
+		
+		
+		
+
+	}
+
+}

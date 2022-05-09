@@ -1,0 +1,45 @@
+package Arrays;
+
+import java.util.Arrays;
+import java.util.OptionalInt;
+import java.util.Scanner;
+
+public class SecondLargest {
+
+	public static void main(String[] args) {
+
+	/*	Scanner scan=new Scanner(System.in);
+		int size=scan.nextInt();
+		int[] arr=new int[size];
+		
+		System.out.println("The size of an array is "+size);
+		
+		for(int i=0; i<size; i++) {
+			arr[i]=scan.nextInt();
+		}
+		
+		System.out.print("The elements in array are: ");
+		
+		int min=Integer.MIN_VALUE;
+		
+		for(int i=0; i<size; i++) {
+			System.out.print(arr[i]+" ");
+			if(min<arr[i]) {
+				min=arr[i];
+			}
+		}
+		System.out.println("\nLargest element in a array "+min);
+		
+		
+	*/
+		
+		// finding the second largest element in an array by using java 8...
+		
+		int[] arr = {34,5,2,8,3,11,4};
+		
+				
+		OptionalInt secondLargest = Arrays.stream(arr).sorted().skip(1).findFirst();
+		
+		
+	}
+}

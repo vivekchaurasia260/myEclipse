@@ -1,0 +1,36 @@
+
+public class AreaCalculator {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Area of Circle "+area(8.5));
+		
+		System.out.println("Area of rectangle "+area(-1.0, 5.0));
+				
+	}
+	
+	public static double area(double radius) {
+		
+		if(radius<0)
+			return -1.0;
+		else {
+			double circleArea = Math.PI * radius * radius;
+			
+			return circleArea;
+		}
+		
+	}
+	
+	public static double area(double length, double breath) {
+		
+		if(length<0.0 || breath<0.0 ) 
+			return -1.0;
+		else {
+			double rectangleArea=length*breath;
+			
+			return rectangleArea;
+		}
+			
+		
+	}
+}

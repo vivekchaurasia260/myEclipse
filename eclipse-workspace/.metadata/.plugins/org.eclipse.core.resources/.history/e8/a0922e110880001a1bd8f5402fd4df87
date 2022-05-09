@@ -1,0 +1,19 @@
+package DefaultPackage;
+
+import java.util.Scanner;
+
+public class TestDemo1 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		//int n=scan.nextInt();
+		
+		String str="VivekChaurasia";
+		
+		System.out.println(str.substring(0,4) + str.substring(1));
+		
+
+	}
+
+}

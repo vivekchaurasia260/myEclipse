@@ -1,0 +1,67 @@
+package DefaultPackage;
+
+import java.util.Stack;
+
+public class MinStack {
+	
+	Stack<Integer> stack;
+	int minimum;
+	
+	MinStack() {
+		stack=new Stack<Integer>();
+	}
+	
+	public void push(int x) {
+		
+		if(stack.isEmpty()) {
+			minimum=x;
+			stack.push(x);
+			return;			
+		}
+		if(x < minimum) {
+			stack.push(2*x - minimum);
+			minimum=x;
+		}
+		else
+			stack.push(x);		
+	}
+	
+	public void pop() {
+		
+		if(stack.isEmpty())
+			return;
+		int top=stack.pop();
+		if(top<minimum) {
+			System.out.println(minimum);
+			minimum = 2*minimum -top;
+		}
+		else
+			System.out.println(top);
+		
+	}
+	
+	public int peek() {
+		
+	}
+	
+	public int getMin() {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		MinStack min = new MinStack();
+		
+		min.push(-2);
+		min.push(0);
+		min.push(-3);
+		int minVal = min.getMin();
+		System.out.println(minVal);
+		min.pop();
+		int topVal = min.peek();
+		System.out.println(topVal);		
+		
+
+	}
+
+}

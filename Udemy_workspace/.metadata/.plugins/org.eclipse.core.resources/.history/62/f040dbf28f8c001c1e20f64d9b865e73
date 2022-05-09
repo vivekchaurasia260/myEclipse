@@ -1,0 +1,13 @@
+package Java8Features;
+
+import java.util.function.Supplier;
+
+public class SupplierFunction {
+
+	public static void main(String[] args) {
+		
+		Supplier s1 = ()->"This is supplier functional interface";
+
+	}
+
+}

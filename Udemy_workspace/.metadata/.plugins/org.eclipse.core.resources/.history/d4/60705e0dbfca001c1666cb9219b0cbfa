@@ -1,0 +1,10 @@
+package DemoProgram1;
+
+public class FrequencyNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

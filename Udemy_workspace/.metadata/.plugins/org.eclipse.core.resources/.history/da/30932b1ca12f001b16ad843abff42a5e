@@ -1,0 +1,11 @@
+
+public class BankAccount {
+	
+	private int accountNumber, balance, phoneNumber;
+	String customerName, email;
+	
+	public void setAccountNumber(int accountNumber) {
+		this.accountNumber=accountNumber;
+	}
+	
+}

@@ -1,0 +1,36 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<%@ page import="java.util.*,com.luv2code.jsp.tagdemo.Student" %>
+
+<%
+	// just create some sample data ... normally provided by MVC
+	List<Student> data = new ArrayList<Student>();
+
+	data.add(new Student("Viswas", "Gupta", false));
+	data.add(new Student("Swati", "Mishra", false));
+	data.add(new Student("Anil", "Dubey", true));
+	data.add(new Student("Srilekha", "Potta", false));
+	
+	pageContext.setAttribute("myStudents", data);
+	
+%>
+
+
+<html>
+<body>
+ 	<table border="1">
+
+	<c:forEach var="tempStudent" items="${myStudents}">
+		
+		${tempStudent.firstName}, ${tempStudent.lastName}, ${tempStudent.goldCustomer}
+		<br/>
+		</c:forEach>
+		
+		</table>
+
+
+
+</body>
+
+
+</html>

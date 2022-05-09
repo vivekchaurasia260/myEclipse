@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [10/Dec/2021:07:31:15 +0530] "GET /NoteTaker/add_notes.jsp HTTP/1.1" 200 3097
+0:0:0:0:0:0:0:1 - - [10/Dec/2021:07:31:15 +0530] "GET /NoteTaker/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Dec/2021:07:31:16 +0530] "GET /NoteTaker/add_notes.jsp HTTP/1.1" 200 3097
+0:0:0:0:0:0:0:1 - - [10/Dec/2021:07:31:27 +0530] "GET /NoteTaker/add_notes.jsp HTTP/1.1" 200 3097
+0:0:0:0:0:0:0:1 - - [10/Dec/2021:07:31:28 +0530] "GET /NoteTaker/index.jsp HTTP/1.1" 200 2521
+0:0:0:0:0:0:0:1 - - [10/Dec/2021:07:31:30 +0530] "GET /NoteTaker/add_notes.jsp HTTP/1.1" 200 3097

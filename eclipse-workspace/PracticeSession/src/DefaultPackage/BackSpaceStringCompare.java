@@ -1,0 +1,60 @@
+//Program to compare stirng after back operation...
+
+package DefaultPackage;
+
+import java.util.Stack;
+
+public class BackSpaceStringCompare {
+	
+	public static void main(String[] args) {
+//		Scanner scan = new Scanner(System.in);
+//		
+//		String str1 = scan.next();
+//		String str2 = scan.next();
+//		
+//		boolean result = backspaceCompare(str1, str2);
+//		
+//		System.out.println(result);
+//		
+//	}
+//	
+//	public static boolean backspaceCompare(String str1, String str2) {
+//		
+//		int index1=0, index2=0;
+//		
+//		String res1="", res2="";
+//		
+//		while(index1<str1.length()) {			
+//			if(str1.charAt(index1)=='#') {
+//				res1=charRemoveAt(str1, index1-1);
+//			}
+//				index1++;
+//		}
+//		
+//		while(index2<str2.length()) {			
+//			if(str2.charAt(index2)=='#') {
+//				res2=charRemoveAt(str1, index2-1);
+//			}
+//			
+//				index2++;
+//		}
+//		
+//		if(res1.equals(res2))
+//			return true;
+//		
+//		
+//		return false;
+//	}
+//	
+//	public static String charRemoveAt(String str, int x) {
+//		
+//		return str.substring(0,x)+str.substring(x+2, str.length());		
+//		
+		
+		// Using Stack...
+		Stack<Character> stack =  new Stack<Character>();
+		
+		
+	}	
+	
+} 

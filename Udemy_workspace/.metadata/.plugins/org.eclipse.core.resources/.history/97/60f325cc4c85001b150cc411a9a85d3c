@@ -1,0 +1,20 @@
+package Challenge;
+
+import java.util.Scanner;
+
+public class ReverseArray {
+	
+	public void reverse(int[] arr) {
+		
+	}
+	
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int size=scan.nextInt();
+		
+		for(int i=0; i<size; i++) {
+			arr[i]=scan.nextInt();
+		}
+	}
+	
+}

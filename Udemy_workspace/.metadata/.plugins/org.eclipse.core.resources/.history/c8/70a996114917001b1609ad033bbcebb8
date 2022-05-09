@@ -1,0 +1,7 @@
+
+public class NumberInWord {
+
+	public static void printNumberInWord(int num) {
+		
+	}
+}

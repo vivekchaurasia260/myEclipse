@@ -1,0 +1,33 @@
+package circular_linkedList;
+
+public class CircularLinkedList {
+	
+	Node head;
+
+	public CircularLinkedList(Node head) {
+		this.head=null;
+	}
+	
+	public void insertAtEnd(int data) {
+		
+		if(head==null) {
+			head=new Node(data);
+			head.setNext(head);
+			return;
+		}	
+		Node temp=head;
+		while(temp.getNext()!=null) {
+			temp=temp.getNext();
+		}
+		
+		temp.setNext(new Node(data));
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

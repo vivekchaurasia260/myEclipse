@@ -1,0 +1,16 @@
+127.0.0.1 - - [04/Sep/2021:06:56:25 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:06:56:27 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 500 3401
+127.0.0.1 - - [04/Sep/2021:07:04:10 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:04:13 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 1246
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:04:13 +0530] "GET /web-student-tracker/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [04/Sep/2021:07:24:02 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:24:04 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 1246
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:24:23 +0530] "GET /web-student-tracker HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:24:23 +0530] "GET /web-student-tracker/ HTTP/1.1" 200 73
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:24:28 +0530] "GET /web-student-tracker/ HTTP/1.1" 304 -
+127.0.0.1 - - [04/Sep/2021:07:26:16 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:26:17 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 1246
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:26:21 +0530] "GET /web-student-tracker/ HTTP/1.1" 200 1246
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:26:28 +0530] "GET /web-student-tracker HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:26:28 +0530] "GET /web-student-tracker/ HTTP/1.1" 200 1246
+0:0:0:0:0:0:0:1 - - [04/Sep/2021:07:26:30 +0530] "GET /web-student-tracker/ HTTP/1.1" 200 1246

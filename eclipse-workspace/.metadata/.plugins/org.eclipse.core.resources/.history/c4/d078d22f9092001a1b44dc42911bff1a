@@ -1,0 +1,26 @@
+package DefaultPackage;
+
+import java.util.Scanner;
+
+public class TestDemo1 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+//		//int n=scan.nextInt();
+//		
+//		String str="VivekChaurasia";
+//		
+//		System.out.println(str.substring(0,5) + str.substring(6, str.length()));
+		
+		int left=1, right=169;
+		
+		int mid= left + (right-left)/2;
+		
+		int res=169/42;
+		int rem=169%42;
+		System.out.println(mid+" "+res+" "+rem);
+
+	}
+
+}

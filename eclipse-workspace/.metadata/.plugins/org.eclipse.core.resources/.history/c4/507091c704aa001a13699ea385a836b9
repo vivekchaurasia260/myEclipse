@@ -1,0 +1,21 @@
+package DefaultPackage;
+
+import java.util.Scanner;
+
+public class BinarySearch {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int[] arr = {};
+		
+		int target=scan.nextInt();
+		
+		boolean result = isSearch(arr, target);
+	
+		
+		System.out.println(result?"Element is present":"It is not present");
+	
+
+	}
+
+}

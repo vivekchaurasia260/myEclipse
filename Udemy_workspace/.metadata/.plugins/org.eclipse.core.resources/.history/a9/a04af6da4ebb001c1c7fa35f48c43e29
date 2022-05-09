@@ -1,0 +1,44 @@
+package ProblemSolving;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class SequenceEquation {
+	
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		int size=scan.nextInt();
+		
+		List<Integer> arr = new ArrayList<>();
+		
+		for(int i=0; i<size; i++) {
+			arr.add(scan.nextInt());
+		}
+		
+		permutationEquation(arr, size);
+		
+	}
+	
+	public static List<Integer> permutationEquation(List<Integer> arr, int size) {
+		
+		List<Integer> y = new ArrayList<>();
+		
+		for(int i=1; i<=size; i++) {
+			
+			int index=arr.indexOf(i);
+			++index;
+			
+			
+			y.add(arr.indexOf(index)+1);
+			
+			
+		}
+		
+		return y;
+		
+	}
+	
+	
+}

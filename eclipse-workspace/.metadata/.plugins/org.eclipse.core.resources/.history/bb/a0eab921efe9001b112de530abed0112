@@ -1,0 +1,11 @@
+package ASimulatorSystem;
+
+import java.awt.event.*;
+
+import javax.swing.*;
+
+public class FastCash extends JFrame implements ActionListener{
+	
+	
+
+}

@@ -1,0 +1,49 @@
+package DemoProgram1;
+
+import java.util.Scanner;
+
+public class SqrtNumber {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		int num=scan.nextInt();
+		
+		
+		int res = findSqrt(num);
+		
+		System.out.println("The root of a number is " + res);
+		
+	}
+	
+	public static int findSqrt(int num) {
+		
+		int start=2;
+		int end= num ;
+		int mid;
+		
+		
+		while(start<=end) {
+			
+			mid=(start+end)/2;
+				
+			if(mid==num) {
+				return mid;
+			}
+			else if(mid*mid<num) {
+				start++;
+			}
+			else {
+				end=mid-1;
+			}
+			
+		}
+		
+		if(start>end) {
+			System.out.println("Not able to find sqrt");
+		}
+		
+		return 0;
+	}
+
+}

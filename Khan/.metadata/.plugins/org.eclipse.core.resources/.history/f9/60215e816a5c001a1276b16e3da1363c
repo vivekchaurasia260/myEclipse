@@ -1,0 +1,18 @@
+package StackProblem;
+
+public class Validation {
+	
+	Node head;
+	
+	Validation() {
+		head=null;
+	}
+	
+	
+	public void pushInStack(String brace) {
+		if(head==null) {
+			head=new Node(brace);
+		}
+	}
+
+}

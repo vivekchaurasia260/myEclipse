@@ -1,0 +1,17 @@
+127.0.0.1 - - [31/Jul/2021:13:06:54 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:06:55 +0530] "GET /jspdemo2/todo-demo.jsp HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:00 +0530] "GET /jspdemo2/todo-demo.jsp?theItem= HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:03 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=+++ HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:07 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Bread HTTP/1.1" 200 409
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:10 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Butter HTTP/1.1" 200 426
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:13 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Butter HTTP/1.1" 200 443
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:49 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Egg HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:52 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Butter HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:53 +0530] "GET /jspdemo2/todo-demo.jsp?theItem= HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:56 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Egg HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:07:59 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Milk HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:08:02 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Butter HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:08:44 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Butter HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:08:45 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Butter HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:08:53 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Butter HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [31/Jul/2021:13:08:54 +0530] "GET /jspdemo2/todo-demo.jsp?theItem=Butter HTTP/1.1" 200 472

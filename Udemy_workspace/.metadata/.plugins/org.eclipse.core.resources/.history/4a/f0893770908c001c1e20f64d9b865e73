@@ -1,0 +1,13 @@
+package Java8Features;
+
+
+// This interface is similate to normal predicate only diff is it has two argument...
+
+public class BiPredicateFunction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

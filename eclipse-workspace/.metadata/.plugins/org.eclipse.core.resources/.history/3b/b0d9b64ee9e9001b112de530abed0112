@@ -1,0 +1,68 @@
+package ASimulatorSystem;
+
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.event.*;
+
+import javax.swing.*;
+
+public class Pin extends JFrame implements ActionListener {
+	
+	JLabel l1,l2,l3,l4;
+	JPasswordField t1,t2,t3;
+	JButton b1,b2;
+	
+	Pin() {
+		
+		// Move the text to the center
+		
+		setFont(new Font("System", Font.BOLD, 22));
+		Font f=getFont();
+		FontMetrics fm = getFontMetrics(f);
+		int x = fm.stringWidth("PIN CHANGE");
+		int y = fm.stringWidth(" ");
+		int z = getWidth() - (3*x);
+		int w = z/y;
+		String pad="";
+		
+		pad=String.format("%"+w+"s", pad);
+		
+		setTitle(pad+"PIN CHANGE");
+		
+		l1=new JLabel("CHANGE YOUR PIN");
+		l1.setFont(new Font("System",Font.BOLD,35));
+		
+		l2=new JLabel("Current PIN:");
+		l2.setFont(new Font("System",Font.BOLD,22));
+		
+		l3=new JLabel("New PIN:");
+		l3.setFont(new Font("System",Font.BOLD,22));
+		
+		l4=new JLabel("Re-Enter New PIN:");
+		l4.setFont(new Font("System",Font.BOLD,22));
+		
+		t1=new JPasswordField();
+		t1.setFont(new Font("Raleway",Font.BOLD,22));
+		
+		t2=new JPasswordField();
+		t2.setFont(new Font("Raleway",Font.BOLD,22));
+		
+		t3=new JPasswordField();
+		t3.setFont(new Font("Raleway",Font.BOLD,22));
+		
+		b1=new JButton();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

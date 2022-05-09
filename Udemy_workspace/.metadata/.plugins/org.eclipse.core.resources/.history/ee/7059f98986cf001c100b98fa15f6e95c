@@ -1,0 +1,32 @@
+package testDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Demo2 {
+	
+	public static void main(String[] args) {
+		
+		// -1,7,-4,2,-5,8
+		
+		
+		// max diff;
+		
+		
+		List<Integer> list = new ArrayList<>();
+		
+		list.add(-1);
+		list.add(7);
+		list.add(-4);
+		list.add(2);
+		list.add(-5);
+		list.add(8);
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+package DefaultPackage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+// Google, ebay....
+public class PlusOne {
+
+	public static void main(String[] args) {
+		int[] arr = {1,2,8};
+		
+		int[] res=plusOne(arr);
+		
+		for(int index=0; index<res.length; index++) {
+			System.out.print(arr[index]+" ");
+		}
+
+	}
+	
+	public static int[] plusOne(int[] arr) {
+		
+		int num = arr[arr.length-1];
+		int res=num+1;
+	
+		List<Integer> list=new ArrayList<Integer>();
+		
+		if(res>=0 && res<10) 
+			arr[arr.length-1]=res;
+		else {
+			list.add(res/10);
+			list.add(res%10);
+		}
+		
+		return arr;
+	}
+
+}

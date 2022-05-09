@@ -1,0 +1,24 @@
+package DefaultPackage;
+
+import java.util.PriorityQueue;
+
+public class PQueue {
+
+	public static void main(String[] args) {
+		
+		PriorityQueue<Integer> pqueue=new PriorityQueue<Integer>();
+		
+		pqueue.add(25);
+		pqueue.add(30);
+		pqueue.add(35);
+		pqueue.add(40);
+		
+		System.out.println(pqueue);
+			
+
+		
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+127.0.0.1 - - [03/Sep/2021:07:22:01 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:07:22:03 +0530] "GET /web-student-tracker/list-students.jsp HTTP/1.1" 500 2427
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:07:22:03 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [03/Sep/2021:07:24:25 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:07:24:28 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 1166
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:07:24:28 +0530] "GET /web-student-tracker/css/style.css HTTP/1.1" 200 1065
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:07:27:26 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 1166
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:07:27:26 +0530] "GET /web-student-tracker/css/style.css HTTP/1.1" 200 1065
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:07:27:27 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 1166

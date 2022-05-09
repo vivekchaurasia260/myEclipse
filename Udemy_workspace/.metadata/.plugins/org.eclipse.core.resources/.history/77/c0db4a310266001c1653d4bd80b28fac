@@ -1,0 +1,13 @@
+package ExceptionHandling;
+
+import java.io.PrintWriter;
+
+public class UnCheckedException {
+	
+	public static void main(String[] args) throws Exception {
+		
+		PrintWriter pw = new PrintWriter("abc.txt");
+		pw.println("hello");
+		
+	}
+}

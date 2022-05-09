@@ -1,0 +1,25 @@
+package DefaultPackage;
+
+import java.util.Scanner;
+
+public class CountAndSay {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		
+		int num=scan.nextInt();
+		
+		String result = countAndSay(num);
+		
+		System.out.println(result);
+		
+
+	}
+	
+	
+	public static String countAndSay(int n) {
+		
+		int count=0, i, j;
+	}
+
+}

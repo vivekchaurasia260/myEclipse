@@ -1,0 +1,17 @@
+package ExceptionHandling;
+
+import java.io.PrintWriter;
+
+public class UnCheckedException {
+	
+	public static void main(String[] args) {
+		
+//		PrintWriter pw = new PrintWriter("abc.txt");
+//		pw.println("hello");
+		
+		
+		System.out.println("I want to sleep properly");
+		Thread.sleep(1000);
+		
+	}
+}

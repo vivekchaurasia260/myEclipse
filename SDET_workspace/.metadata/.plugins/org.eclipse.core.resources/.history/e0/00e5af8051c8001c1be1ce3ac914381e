@@ -1,0 +1,44 @@
+package Overloading;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+				
+		String str="stress";
+		
+		String rev="";
+		for(int i=str.length()-1; i>=0; i--) {
+			
+			rev+=str.charAt(i);
+			
+		}
+		
+		Map<Character, Integer> map = new LinkedHashMap<>();
+		
+		for(int j=0; j<rev.length(); j++) {
+			
+			int temp = map.getOrDefault(rev.charAt(j), 0);
+			
+			map.put(rev.charAt(j), ++temp);
+			
+		}
+		
+		
+		System.out.println(map);
+		
+		map.entrySet().stream().filter(entry -> entry.getValue()==1).forEach(entry -> {
+			
+			System.out.println(entry.getKey()+" " +entry.getValue());
+			
+		});
+		
+		
+	//	Set<Character> set = new HashSet<>();
+		
+		
+	}
+
+}

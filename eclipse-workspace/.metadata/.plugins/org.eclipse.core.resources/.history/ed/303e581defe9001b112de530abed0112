@@ -1,0 +1,7 @@
+package ASimulatorSystem;
+
+public class FastCash extends JFrame implements ActionListener{
+	
+	
+
+}

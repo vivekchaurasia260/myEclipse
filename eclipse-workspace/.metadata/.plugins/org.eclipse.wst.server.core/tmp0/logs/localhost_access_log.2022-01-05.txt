@@ -1,0 +1,9 @@
+127.0.0.1 - - [05/Jan/2022:13:14:39 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [05/Jan/2022:13:14:41 +0530] "GET /web-student-tracker/ HTTP/1.1" 200 3865
+0:0:0:0:0:0:0:1 - - [05/Jan/2022:13:14:41 +0530] "GET /web-student-tracker/css/style.css HTTP/1.1" 200 1065
+0:0:0:0:0:0:0:1 - - [05/Jan/2022:13:14:41 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [05/Jan/2022:13:14:49 +0530] "GET /web-student-tracker/add-student-form.jsp HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [05/Jan/2022:13:14:49 +0530] "GET /web-student-tracker/css/add-student-style.css HTTP/1.1" 200 566
+0:0:0:0:0:0:0:1 - - [05/Jan/2022:13:20:29 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 3425
+0:0:0:0:0:0:0:1 - - [05/Jan/2022:13:20:31 +0530] "GET /web-student-tracker/StudentControllerServlet?command=LOAD&studentId=2 HTTP/1.1" 200 1320
+0:0:0:0:0:0:0:1 - - [05/Jan/2022:13:20:33 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 3425

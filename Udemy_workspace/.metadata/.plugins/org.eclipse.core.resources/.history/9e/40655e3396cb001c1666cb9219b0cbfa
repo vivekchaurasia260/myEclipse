@@ -1,0 +1,33 @@
+package Arrays;
+
+public class FiboDemo {
+
+	public static void main(String[] args) {
+		
+		
+		// 0 1 1 2 3 5 8
+		
+		int num;
+		
+		System.out.println(0);
+		System.out.println(1);
+		
+		for(int i=1; i<8; i++) {
+			System.out.println(num+i);
+		}
+
+	}
+	
+//	public static itn printFibonacci(int num) {
+//		
+//		
+//		if(num<=1) {
+//			System.out.println(num);
+//		}
+//		
+//		
+//		return printFibonacci(num);
+//		
+//	}
+
+}

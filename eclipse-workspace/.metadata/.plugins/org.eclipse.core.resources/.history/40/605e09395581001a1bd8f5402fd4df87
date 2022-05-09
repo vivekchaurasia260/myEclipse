@@ -1,0 +1,44 @@
+package DefaultPackage;
+
+import java.util.Stack;
+
+public class MinStack {
+	
+	Stack<Integer> stack;
+	
+	MinStack() {
+		stack=new Stack<Integer>();
+	}
+	
+	public void push(int x) {
+		
+	}
+	
+	public void pop() {
+		
+	}
+	
+	public int peek() {
+		
+	}
+	
+	public int getMin() {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		MinStack min = new MinStack();
+		min.push(-2);
+		min.push(0);
+		min.push(-3);
+		int minVal = min.getMin();
+		System.out.println(minVal);
+		min.pop();
+		int topVal = min.peek();
+		System.out.println(topVal);		
+		
+
+	}
+
+}

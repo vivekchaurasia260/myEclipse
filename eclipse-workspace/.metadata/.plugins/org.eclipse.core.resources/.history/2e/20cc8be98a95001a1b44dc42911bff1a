@@ -1,0 +1,41 @@
+package DefaultPackage;
+
+import java.util.Scanner;
+
+public class RemoveKDigits {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String str=scan.next();
+		int k=scan.nextInt();
+		
+		int result=removeKDigit(str, k);
+		System.out.println(result);
+		
+		String s1="This is my World";
+		
+		String s2=s1.replaceAll("my", s1);
+		
+		System.out.println(s2);
+	}
+	
+	public static int removeKDigit(String str, int k) {
+		
+		int i, minValue=Integer.MAX_VALUE;
+		
+		for(i=0; i<str.length()-k; i++) {
+			String temp=str.substring(i, k+i);
+			String s=str.replaceAll(str, temp);
+			int subVal = Integer.parseInt(temp);
+			
+//			if(minValue>subVal)
+//				minValue=subVal;
+			
+			System.out.println(s);
+		}
+		
+		return minValue;
+		
+	}
+
+}

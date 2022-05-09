@@ -1,0 +1,9 @@
+127.0.0.1 - - [01/Sep/2021:07:19:03 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:07:19:07 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:07:19:07 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [01/Sep/2021:07:20:28 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:07:20:31 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 578
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:07:20:31 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [01/Sep/2021:07:29:53 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:07:29:56 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 1099
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:07:29:56 +0530] "GET /favicon.ico HTTP/1.1" 404 720

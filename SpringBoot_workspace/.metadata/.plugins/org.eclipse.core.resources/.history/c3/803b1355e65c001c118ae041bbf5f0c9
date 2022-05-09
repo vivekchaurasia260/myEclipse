@@ -1,0 +1,16 @@
+package com.HibernateExample.FirstLevelCaching;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class FirstCachingDemo {
+
+	public static void main(String[] args) {
+		
+		SessionFactory factory = new Configuration().configure().buildSessionFactory();
+		
+		
+
+	}
+
+}

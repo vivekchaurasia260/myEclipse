@@ -1,0 +1,103 @@
+package testDemo;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Demo2 {
+	
+	public static void main(String[] args) {
+		
+//		// -1,7,-4,2,-5,8
+//		
+//		
+//		// max diff;
+//		
+//		
+//		List<Integer> list = new ArrayList<>();
+//		
+//		list.add(-1);
+//		list.add(7);
+//		list.add(-4);
+//		list.add(2);
+//		list.add(-5);
+//		list.add(8);
+//		
+//		int min=Integer.MAX_VALUE;
+//		
+//		int max=Integer.MIN_VALUE;
+//		
+//		for(int i=0; i<list.size(); i++) {
+//			
+//			if(list.get(i)<min)
+//				min=list.get(i);    // -5
+//			
+//			if(list.get(i)>max)
+//				max=list.get(i);    // 8
+//			
+//						
+//		}
+//		
+//		
+//		System.out.println(min+"  "+max);
+//		
+//	         // 1
+//		
+//		
+//		System.out.println(max-min);
+		
+		
+		
+		String str = "morgan stanley";
+		
+		Map<Character, Integer> map = new LinkedHashMap<>();
+		
+		for(int i=0; i<str.length(); i++) {
+			
+			int temp = map.getOrDefault(str.charAt(i), 0);
+			
+			
+			map.put(str.charAt(i), ++temp);
+				
+		}
+		
+		System.out.println(map);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

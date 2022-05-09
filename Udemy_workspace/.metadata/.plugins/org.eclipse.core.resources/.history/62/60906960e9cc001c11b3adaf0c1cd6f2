@@ -1,0 +1,15 @@
+package DemoProgram1;
+
+import java.util.Scanner;
+
+public class ReverseWord {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		String str = "This is my world";
+		
+	}
+
+}

@@ -1,0 +1,46 @@
+package StackProblem;
+
+import java.util.Scanner;
+
+public class Validation {
+	
+	Node head;
+	
+	Validation() {
+		head=null;
+	}
+	
+	
+	public void pushInStack(char brace) {
+		if(head==null) {
+			head=new Node(brace);
+		}
+		else {
+			Node temp=new Node(brace);
+			temp.setNext(head);
+			head=temp;
+		}
+	}
+	
+	public void popFromStack(char bracket) {
+		if(head.getData())
+		head=head.getNext();
+	}
+	
+	public static void main(String[] args) {
+		int i;
+		Scanner scan=new Scanner(System.in);
+		String input=scan.next();
+		Validation check = new Validation();
+		
+		for(i=0; i<input.length(); i++) {
+			if(input.charAt(i)=='{' || input.charAt(i)=='(' || input.charAt(i)=='[') {
+				check.pushInStack(input.charAt(i));
+			}
+			else {
+				check.popFromStack(input.charAt(i));
+			}
+		}
+	}
+
+}

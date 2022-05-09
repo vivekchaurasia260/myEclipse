@@ -1,0 +1,6 @@
+
+public class MotherBoard {
+	private String model;
+	private String manufacturer;
+	
+}

@@ -1,0 +1,21 @@
+package Arrays;
+
+public class PeakElement {
+
+	public static void main(String[] args) {
+		
+		int[] arr = {5, 10, 20, 15};
+		
+		findPeakElement(arr);
+
+	}
+	
+	public static void findPeakElement(int[] arr) {
+		
+		for(int i=1; i<arr.length-1; i++) {
+			
+		}
+		
+	}
+
+}

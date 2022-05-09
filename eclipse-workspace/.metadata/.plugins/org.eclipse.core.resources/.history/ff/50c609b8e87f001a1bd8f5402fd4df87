@@ -1,0 +1,25 @@
+package DefaultPackage;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class CountingElements {
+
+	public static void main(String[] args) {
+		
+		int[] arr = {1,1,3,3,5,5,7,7};
+
+		HashSet<Integer> set = new HashSet<Integer>();
+			
+		
+		for(int x:arr)
+			set.add(x);
+		
+		System.out.println(set);
+		
+		Object[] res = set.toArray();
+		
+	}
+
+}

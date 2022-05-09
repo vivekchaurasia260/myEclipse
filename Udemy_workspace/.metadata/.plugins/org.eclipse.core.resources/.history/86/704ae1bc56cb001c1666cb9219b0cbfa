@@ -1,0 +1,17 @@
+package StringProblem;
+
+public class LongestCommonPrefix {
+
+	public static void main(String[] args) {
+		
+		String [] arr = {"geeksforgeeks", "geeks", "geek",
+		         "geezer"};
+
+		
+		if(arr.length==0)
+			return;
+		
+		
+	}
+
+}

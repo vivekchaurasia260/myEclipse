@@ -1,0 +1,18 @@
+package Default;
+
+class Movie {
+	String name;
+	
+	public Movie(String name) {
+		this.name=name;
+	}
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

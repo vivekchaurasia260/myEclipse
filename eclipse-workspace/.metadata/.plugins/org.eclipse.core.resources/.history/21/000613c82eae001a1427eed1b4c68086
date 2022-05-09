@@ -1,0 +1,20 @@
+package DefaultPackage;
+	// Google, ebay....
+public class PlusOne {
+
+	public static void main(String[] args) {
+		int[] arr = {};
+		
+		int res=plusOne(arr);
+		
+		for(int index=0; index<res; index++) {
+			
+		}
+
+	}
+	
+	public static int plusOne(int[] arr) {
+		
+	}
+
+}

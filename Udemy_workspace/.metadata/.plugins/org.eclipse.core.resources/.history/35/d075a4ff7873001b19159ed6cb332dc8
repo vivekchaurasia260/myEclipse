@@ -1,0 +1,50 @@
+package ProjectDemo;
+
+public class Hamburger {
+	private String breadRollType;
+	private String meat;
+	private int lettuce;
+	private int tomato;
+	private int carrot;
+	private double price;
+	private String name;
+	
+	public Hamburger(String breadRollType, String meat, double price) {
+		this.breadRollType=breadRollType;
+		this.meat=meat;
+		this.price=price;
+	}
+	
+	public void setName(String name) {
+		this.name=name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public String getBreadRollType() {
+		return breadRollType;
+	}
+
+	public String isMeat() {
+		return meat;
+	}
+
+	public int getLettuce() {
+		return lettuce;
+	}
+
+	public int getTomato() {
+		return tomato;
+	}
+
+	public int getCarrot() {
+		return carrot;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+	
+}

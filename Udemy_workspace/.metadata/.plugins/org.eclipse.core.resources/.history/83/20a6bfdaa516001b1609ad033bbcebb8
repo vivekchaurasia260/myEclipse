@@ -1,0 +1,23 @@
+
+public class AreaCalculator {
+	
+	public static void main(String[] args) {
+				
+	}
+	
+	public static double area(double radius) {
+		
+		if(radius<0)
+			return -1.0;
+		else {
+			double circleArea = 3.14 * radius * radius;
+			
+			return circleArea;
+		}
+		
+	}
+	
+	public static double area(double length, double breath) {
+		
+	}
+}

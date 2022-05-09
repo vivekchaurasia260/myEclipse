@@ -1,0 +1,13 @@
+package Java8Features;
+
+// It is same as Function Interface only diff is it has two args...
+
+public class BiFunctionalInterface {
+
+	public static void main(String[] args) {
+		
+		BiFunction<Integer, Integer, String> bf1 = (i1, i2)->(i1+i2)%2==0 ? "It is even number":"It is odd number";
+
+	}
+
+}

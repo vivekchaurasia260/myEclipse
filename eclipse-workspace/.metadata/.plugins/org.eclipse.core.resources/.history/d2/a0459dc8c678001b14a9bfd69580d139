@@ -1,0 +1,19 @@
+package _30_Day_challenge;
+
+
+class Difference {
+	private int[] elements;
+	int maximumDifference;
+	
+	
+	
+}
+
+public class Day_14_Scope {
+	
+	public static void main(String[] args) {
+		
+	}
+}
+
+

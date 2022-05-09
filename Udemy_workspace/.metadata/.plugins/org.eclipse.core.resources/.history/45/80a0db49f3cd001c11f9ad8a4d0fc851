@@ -1,0 +1,17 @@
+package testDemo;
+
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List<Employee> list = new ArrayList<>();
+		
+		list.add(new Employee("A", "A@a.com"));
+		list.add(new Employee("B", "A@a.com"));
+		list.add(new Employee("C", "C@a.com"));
+
+	}
+
+}

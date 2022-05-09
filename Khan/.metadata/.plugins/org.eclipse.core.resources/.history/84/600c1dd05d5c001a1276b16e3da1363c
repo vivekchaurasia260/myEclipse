@@ -1,0 +1,77 @@
+package Tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class BinaryTree {
+	
+	BinaryTreeNode root;
+	
+	BinaryTree() {
+		root=null;
+	}
+	
+	public void insertInTreeByLevelOrder(int data) {
+		
+		if(root==null) {
+			root=new BinaryTreeNode(data);
+//			return;
+		}
+		Queue<BinaryTreeNode> queue = new LinkedList<BinaryTreeNode>();
+		queue.offer(root);
+		while(!queue.isEmpty()) {
+			BinaryTreeNode node=queue.poll();
+			if(node!=null) {
+				if(node.getLeft()!=null) {
+					queue.offer(node.getLeft());
+				}
+				else {
+					node.setLeft(new BinaryTreeNode(data));
+					//return;
+				}
+				if(node.getRight()!=null) {
+					queue.offer(node.getRight());
+				}
+				else {
+					node.setRight(new BinaryTreeNode(data));
+					//return;
+				}
+			}
+		}
+		
+		
+	}
+	
+	public void postOrderTraversal(BinaryTreeNode root) {
+		if(root==null) {
+			return;
+		}
+		postOrderTraversal(root.getLeft());
+		postOrderTraversal(root.getRight());
+		System.out.print(root.getData()+" ");	
+	}
+	
+	public void preOrderTraversal(BinaryTreeNode root) {
+		if(root==null) {
+			return;
+		}
+		System.out.print(root.getData()+" ");
+		preOrderTraversal(root.getLeft());
+		preOrderTraversal(root.getRight());
+	}
+	
+	public static void main(String[] args) {
+		BinaryTree btn = new BinaryTree();
+		btn.insertInTreeByLevelOrder(20);
+		btn.insertInTreeByLevelOrder(30);
+		btn.insertInTreeByLevelOrder(40);
+		btn.insertInTreeByLevelOrder(50);
+		btn.insertInTreeByLevelOrder(60);
+		btn.insertInTreeByLevelOrder(70);
+		
+		//btn.postOrderTraversal(btn.root);
+		btn.preOrderTraversal(btn.root);
+		
+	}
+
+}

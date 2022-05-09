@@ -1,0 +1,20 @@
+package Assignment;
+
+public class Printer {
+	
+	private int tonerLevel;
+	private int pages;
+	private boolean duplexPrinter;
+	
+	public Printer(int tonerLevel, int pages, boolean duplexPrinter) {
+		this.tonerLevel=tonerLevel;
+		this.pages=pages;
+		this.duplexPrinter=duplexPrinter;
+	}
+	
+	
+	public void fillToner() {
+		
+	}
+	
+}

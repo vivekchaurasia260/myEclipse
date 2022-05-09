@@ -1,0 +1,377 @@
+
+Mar 22, 2020 07:17:59.61 NEW SESSION
+Mar 22, 2020 07:17:59.61 [23112:20920:0322/071759.607:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 07:17:59.62 [23112:20920:0322/071759.607:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 07:17:59.63 [23112:20920:0322/071759.607:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 07:17:59.64 [23112:20920:0322/071759.607:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 07:17:59.66 Opening in existing browser session.
+Mar 22, 2020 07:27:24.86 [21708:21476:0322/072724.864:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 07:27:24.87 [21708:21476:0322/072724.865:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 07:27:24.89 [21708:21476:0322/072724.865:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 07:27:24.90 [21708:21476:0322/072724.865:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 07:27:24.92 Opening in existing browser session.
+Mar 22, 2020 07:36:07.12 [9280:18416:0322/073607.119:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 07:36:07.13 [9280:18416:0322/073607.119:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 07:36:07.15 [9280:18416:0322/073607.119:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 07:36:07.16 [9280:18416:0322/073607.119:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 07:36:07.17 Opening in existing browser session.
+Mar 22, 2020 08:01:37.86 [23512:19688:0322/080137.858:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 08:01:37.87 [23512:19688:0322/080137.859:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 08:01:37.88 [23512:19688:0322/080137.859:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 08:01:37.90 [23512:19688:0322/080137.859:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 08:01:37.93 Opening in existing browser session.
+Mar 22, 2020 08:57:38.64 [7652:21352:0322/085738.646:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 08:57:38.65 [7652:21352:0322/085738.646:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 08:57:38.66 [7652:21352:0322/085738.646:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 08:57:38.67 [7652:21352:0322/085738.647:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 08:57:38.69 Opening in existing browser session.
+Mar 22, 2020 09:06:46.21 [16188:5768:0322/090646.217:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 09:06:46.23 [16188:5768:0322/090646.218:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 09:06:46.25 [16188:5768:0322/090646.218:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 09:06:46.28 [16188:5768:0322/090646.218:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 09:06:46.31 Opening in existing browser session.
+Mar 22, 2020 09:25:28.33 [19360:23372:0322/092528.336:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 09:25:28.35 [19360:23372:0322/092528.337:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 09:25:28.36 [19360:23372:0322/092528.337:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 09:25:28.38 [19360:23372:0322/092528.337:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 09:25:28.41 Opening in existing browser session.
+Mar 22, 2020 09:43:35.03 [16456:23400:0322/094335.032:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 09:43:35.04 [16456:23400:0322/094335.032:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 09:43:35.06 [16456:23400:0322/094335.032:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 09:43:35.07 [16456:23400:0322/094335.032:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 09:43:35.09 Opening in existing browser session.
+Mar 22, 2020 09:52:53.40 [10688:20376:0322/095253.402:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 22, 2020 09:52:53.41 [10688:20376:0322/095253.402:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 22, 2020 09:52:53.44 [10688:20376:0322/095253.402:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 22, 2020 09:52:53.46 [10688:20376:0322/095253.402:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 22, 2020 09:52:53.49 Opening in existing browser session.
+Mar 26, 2020 18:37:54.37 [4612:10720:0326/183754.373:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 18:37:54.39 [4612:10720:0326/183754.374:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 18:37:54.42 [4612:10720:0326/183754.374:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 18:37:54.46 [4612:10720:0326/183754.374:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 18:37:54.48 Opening in existing browser session.
+Mar 26, 2020 18:38:20.36 [13424:22712:0326/183820.359:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 18:38:20.37 [13424:22712:0326/183820.360:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 18:38:20.42 [13424:22712:0326/183820.360:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 18:38:20.45 [13424:22712:0326/183820.360:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 18:38:20.47 Opening in existing browser session.
+Mar 26, 2020 18:39:38.99 [14236:8964:0326/183938.994:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 18:39:39.00 [14236:8964:0326/183938.995:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 18:39:39.02 [14236:8964:0326/183938.995:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 18:39:39.03 [14236:8964:0326/183938.995:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 18:39:39.06 Opening in existing browser session.
+Mar 26, 2020 19:56:25.58 [25088:21536:0326/195625.578:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 19:56:25.59 [25088:21536:0326/195625.579:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 19:56:25.60 [25088:21536:0326/195625.579:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 19:56:25.62 [25088:21536:0326/195625.579:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 19:56:25.66 Opening in existing browser session.
+Mar 26, 2020 19:57:18.05 [27732:13188:0326/195718.058:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 19:57:18.07 [27732:13188:0326/195718.059:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 19:57:18.10 [27732:13188:0326/195718.059:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 19:57:18.12 [27732:13188:0326/195718.059:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 19:57:18.15 Opening in existing browser session.
+Mar 26, 2020 19:58:08.76 [22860:12412:0326/195808.759:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 19:58:08.77 [22860:12412:0326/195808.760:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 19:58:08.79 [22860:12412:0326/195808.760:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 19:58:08.82 [22860:12412:0326/195808.760:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 19:58:08.84 Opening in existing browser session.
+Mar 26, 2020 19:59:18.80 [21204:22196:0326/195918.807:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 19:59:18.82 [21204:22196:0326/195918.808:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 19:59:18.84 [21204:22196:0326/195918.808:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 19:59:18.86 [21204:22196:0326/195918.808:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 19:59:18.88 Opening in existing browser session.
+Mar 26, 2020 20:59:01.87 [23004:29132:0326/205901.878:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 20:59:02.00 [23004:29132:0326/205901.878:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 20:59:02.03 [23004:29132:0326/205901.878:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 20:59:02.05 [23004:29132:0326/205901.878:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 20:59:02.06 Opening in existing browser session.
+Mar 26, 2020 20:59:29.22 [19808:7664:0326/205929.225:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 20:59:29.23 [19808:7664:0326/205929.226:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 20:59:29.25 [19808:7664:0326/205929.226:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 20:59:29.26 [19808:7664:0326/205929.226:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 20:59:29.31 Opening in existing browser session.
+Mar 26, 2020 21:00:33.51 [13600:18740:0326/210033.510:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:00:33.53 [13600:18740:0326/210033.511:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:00:33.54 [13600:18740:0326/210033.511:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:00:33.57 [13600:18740:0326/210033.511:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:00:33.59 Opening in existing browser session.
+Mar 26, 2020 21:03:27.84 [7156:17272:0326/210327.846:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:03:27.86 [7156:17272:0326/210327.847:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:03:27.87 [7156:17272:0326/210327.847:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:03:27.88 [7156:17272:0326/210327.847:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:03:27.92 Opening in existing browser session.
+Mar 26, 2020 21:04:20.42 [28728:10772:0326/210420.421:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:04:20.43 [28728:10772:0326/210420.422:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:04:20.44 [28728:10772:0326/210420.422:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:04:20.46 [28728:10772:0326/210420.422:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:04:20.49 Opening in existing browser session.
+Mar 26, 2020 21:16:10.78 [21020:16112:0326/211610.788:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:16:10.80 [21020:16112:0326/211610.789:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:16:10.82 [21020:16112:0326/211610.789:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:16:10.83 [21020:16112:0326/211610.789:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:16:10.87 Opening in existing browser session.
+Mar 26, 2020 21:40:54.31 [29636:21088:0326/214054.314:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:40:54.32 [29636:21088:0326/214054.314:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:40:54.33 [29636:21088:0326/214054.314:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:40:54.34 [29636:21088:0326/214054.314:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:40:54.39 Opening in existing browser session.
+Mar 26, 2020 21:41:10.12 [10436:25380:0326/214110.125:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:41:10.13 [10436:25380:0326/214110.125:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:41:10.14 [10436:25380:0326/214110.125:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:41:10.15 [10436:25380:0326/214110.125:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:41:10.19 Opening in existing browser session.
+Mar 26, 2020 21:41:27.37 [17356:20412:0326/214127.370:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:41:27.38 [17356:20412:0326/214127.370:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:41:27.39 [17356:20412:0326/214127.370:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:41:27.40 [17356:20412:0326/214127.370:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:41:27.43 Opening in existing browser session.
+Mar 26, 2020 21:42:22.33 [24808:23996:0326/214222.337:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:42:22.35 [24808:23996:0326/214222.337:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:42:22.36 [24808:23996:0326/214222.337:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:42:22.37 [24808:23996:0326/214222.337:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:42:22.40 Opening in existing browser session.
+Mar 26, 2020 21:44:22.67 [13348:6500:0326/214422.674:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:44:22.68 [13348:6500:0326/214422.674:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:44:22.69 [13348:6500:0326/214422.674:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:44:22.71 [13348:6500:0326/214422.674:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:44:22.72 Opening in existing browser session.
+Mar 26, 2020 21:46:08.40 [24700:17504:0326/214608.402:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:46:08.41 [24700:17504:0326/214608.403:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:46:08.43 [24700:17504:0326/214608.403:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:46:08.44 [24700:17504:0326/214608.403:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:46:08.47 Opening in existing browser session.
+Mar 26, 2020 21:50:37.61 [2712:9792:0326/215037.609:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 26, 2020 21:50:37.62 [2712:9792:0326/215037.610:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 26, 2020 21:50:37.63 [2712:9792:0326/215037.610:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 26, 2020 21:50:37.64 [2712:9792:0326/215037.610:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 26, 2020 21:50:37.68 Opening in existing browser session.
+
+Mar 28, 2020 12:47:49.77 NEW SESSION
+Mar 28, 2020 12:47:49.77 [22640:20984:0328/124749.767:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 28, 2020 12:47:49.79 [22640:20984:0328/124749.767:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 28, 2020 12:47:49.81 [22640:20984:0328/124749.767:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 28, 2020 12:47:49.83 [22640:20984:0328/124749.767:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 28, 2020 12:47:49.86 Opening in existing browser session.
+Mar 28, 2020 13:25:57.33 [23952:8760:0328/132557.334:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 28, 2020 13:25:57.34 [23952:8760:0328/132557.335:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 28, 2020 13:25:57.36 [23952:8760:0328/132557.335:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 28, 2020 13:25:57.38 [23952:8760:0328/132557.335:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 28, 2020 13:25:57.40 Opening in existing browser session.
+Mar 28, 2020 13:27:42.88 [15996:28816:0328/132742.879:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 28, 2020 13:27:42.89 [15996:28816:0328/132742.879:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 28, 2020 13:27:42.90 [15996:28816:0328/132742.879:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 28, 2020 13:27:42.92 [15996:28816:0328/132742.879:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 28, 2020 13:27:42.96 Opening in existing browser session.
+Mar 28, 2020 13:35:19.66 [14472:3992:0328/133519.665:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 28, 2020 13:35:19.68 [14472:3992:0328/133519.665:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 28, 2020 13:35:19.69 [14472:3992:0328/133519.665:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 28, 2020 13:35:19.72 [14472:3992:0328/133519.665:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 28, 2020 13:35:19.76 Opening in existing browser session.
+Mar 28, 2020 13:37:33.67 [24952:9940:0328/133733.675:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 28, 2020 13:37:33.70 [24952:9940:0328/133733.675:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 28, 2020 13:37:33.71 [24952:9940:0328/133733.676:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 28, 2020 13:37:33.74 [24952:9940:0328/133733.676:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 28, 2020 13:37:33.76 Opening in existing browser session.
+
+Mar 31, 2020 03:14:47.64 NEW SESSION
+Mar 31, 2020 03:14:47.64 [12304:9168:0331/031447.641:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 31, 2020 03:14:47.66 [12304:9168:0331/031447.642:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 31, 2020 03:14:47.67 [12304:9168:0331/031447.642:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 31, 2020 03:14:47.69 [12304:9168:0331/031447.642:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 31, 2020 03:14:47.72 Opening in existing browser session.
+Mar 31, 2020 03:35:11.94 [460:1348:0331/033511.940:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 31, 2020 03:35:11.95 [460:1348:0331/033511.940:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 31, 2020 03:35:11.96 [460:1348:0331/033511.940:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 31, 2020 03:35:11.98 [460:1348:0331/033511.940:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 31, 2020 03:35:12.00 Opening in existing browser session.
+Mar 31, 2020 03:48:47.22 [22352:10492:0331/034847.223:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Mar 31, 2020 03:48:47.24 [22352:10492:0331/034847.224:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Mar 31, 2020 03:48:47.26 [22352:10492:0331/034847.224:ERROR:disk_cache.cc(184)] Unable to create cache
+Mar 31, 2020 03:48:47.28 [22352:10492:0331/034847.224:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Mar 31, 2020 03:48:47.30 Opening in existing browser session.
+
+Apr 03, 2020 09:49:25.43 NEW SESSION
+Apr 03, 2020 09:49:25.43 [7876:12628:0403/094925.432:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 03, 2020 09:49:25.45 [7876:12628:0403/094925.433:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 03, 2020 09:49:25.47 [7876:12628:0403/094925.433:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 03, 2020 09:49:25.49 [7876:12628:0403/094925.433:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 03, 2020 09:49:25.51 Opening in existing browser session.
+Apr 03, 2020 10:02:23.57 [13600:12224:0403/100223.577:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 03, 2020 10:02:23.61 [13600:12224:0403/100223.578:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 03, 2020 10:02:23.62 [13600:12224:0403/100223.578:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 03, 2020 10:02:23.64 [13600:12224:0403/100223.578:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 03, 2020 10:02:23.69 Opening in existing browser session.
+Apr 03, 2020 10:56:19.78 [19492:19564:0403/105619.787:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 03, 2020 10:56:19.80 [19492:19564:0403/105619.787:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 03, 2020 10:56:19.81 [19492:19564:0403/105619.787:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 03, 2020 10:56:19.83 [19492:19564:0403/105619.787:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 03, 2020 10:56:19.88 Opening in existing browser session.
+Apr 03, 2020 10:58:11.18 [8064:16108:0403/105811.182:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 03, 2020 10:58:11.19 [8064:16108:0403/105811.183:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 03, 2020 10:58:11.21 [8064:16108:0403/105811.183:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 03, 2020 10:58:11.22 [8064:16108:0403/105811.183:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 03, 2020 10:58:11.24 Opening in existing browser session.
+Apr 03, 2020 11:20:10.91 [19648:10228:0403/112010.918:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 03, 2020 11:20:10.93 [19648:10228:0403/112010.918:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 03, 2020 11:20:10.94 [19648:10228:0403/112010.918:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 03, 2020 11:20:10.96 [19648:10228:0403/112010.918:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 03, 2020 11:20:10.98 Opening in existing browser session.
+Apr 05, 2020 03:02:47.00 [22824:14232:0405/030247.007:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 05, 2020 03:02:47.02 [22824:14232:0405/030247.008:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 05, 2020 03:02:47.03 [22824:14232:0405/030247.008:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 05, 2020 03:02:47.05 [22824:14232:0405/030247.008:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 05, 2020 03:02:47.09 Opening in existing browser session.
+Apr 05, 2020 03:16:25.20 [16088:14668:0405/031625.202:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 05, 2020 03:16:25.22 [16088:14668:0405/031625.203:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 05, 2020 03:16:25.23 [16088:14668:0405/031625.203:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 05, 2020 03:16:25.26 [16088:14668:0405/031625.203:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 05, 2020 03:16:25.31 Opening in existing browser session.
+Apr 05, 2020 03:36:41.05 [14496:8156:0405/033641.051:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 05, 2020 03:36:41.06 [14496:8156:0405/033641.052:ERROR:cache_util.cc(135)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 05, 2020 03:36:41.08 [14496:8156:0405/033641.052:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 05, 2020 03:36:41.10 [14496:8156:0405/033641.052:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 05, 2020 03:36:41.15 Opening in existing browser session.
+
+Apr 28, 2020 12:37:26.68 NEW SESSION
+Apr 28, 2020 12:37:26.68 [4232:10952:0428/123726.682:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 28, 2020 12:37:26.71 [4232:10952:0428/123726.683:ERROR:cache_util.cc(138)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 28, 2020 12:37:26.74 [4232:10952:0428/123726.684:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 28, 2020 12:37:26.77 [4232:10952:0428/123726.684:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Apr 28, 2020 12:37:26.83 Opening in existing browser session.
+Apr 28, 2020 13:29:31.83 [15076:21420:0428/132931.831:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Apr 28, 2020 13:29:31.87 [15076:21420:0428/132931.833:ERROR:cache_util.cc(138)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Apr 28, 2020 13:29:31.88 [15076:21420:0428/132931.833:ERROR:disk_cache.cc(184)] Unable to create cache
+Apr 28, 2020 13:29:31.96 Opening in existing browser session.
+Apr 28, 2020 13:29:31.99 [15076:21420:0428/132931.833:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+May 02, 2020 15:22:11.43 [16448:11388:0502/152211.429:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+May 02, 2020 15:22:11.45 [16448:11388:0502/152211.430:ERROR:cache_util.cc(138)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+May 02, 2020 15:22:11.47 [16448:11388:0502/152211.430:ERROR:disk_cache.cc(184)] Unable to create cache
+May 02, 2020 15:22:11.48 [16448:11388:0502/152211.430:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+May 02, 2020 15:22:11.53 Opening in existing browser session.
+May 09, 2020 16:19:23.97 [36396:21512:0509/161923.977:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+May 09, 2020 16:19:23.99 [36396:21512:0509/161923.978:ERROR:cache_util.cc(138)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+May 09, 2020 16:19:24.02 [36396:21512:0509/161923.978:ERROR:disk_cache.cc(184)] Unable to create cache
+May 09, 2020 16:19:24.04 [36396:21512:0509/161923.978:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+May 09, 2020 16:19:24.13 Opening in existing browser session.
+May 09, 2020 17:22:30.81 [9988:3504:0509/172230.812:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+May 09, 2020 17:22:30.83 [9988:3504:0509/172230.813:ERROR:cache_util.cc(138)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+May 09, 2020 17:22:30.85 [9988:3504:0509/172230.813:ERROR:disk_cache.cc(184)] Unable to create cache
+May 09, 2020 17:22:30.88 [9988:3504:0509/172230.813:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+May 09, 2020 17:22:30.98 Opening in existing browser session.
+May 09, 2020 17:25:21.83 [8728:36488:0509/172521.834:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+May 09, 2020 17:25:21.85 [8728:36488:0509/172521.835:ERROR:cache_util.cc(138)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+May 09, 2020 17:25:21.88 [8728:36488:0509/172521.835:ERROR:disk_cache.cc(184)] Unable to create cache
+May 09, 2020 17:25:21.91 [8728:36488:0509/172521.835:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+May 09, 2020 17:25:21.96 Opening in existing browser session.
+
+May 23, 2020 20:40:22.82 NEW SESSION
+May 23, 2020 20:40:22.82 [20732:26956:0523/204022.817:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+May 23, 2020 20:40:22.84 [20732:26956:0523/204022.818:ERROR:cache_util.cc(138)] Unable to move cache folder C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\VivekChaurasia\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+May 23, 2020 20:40:22.87 [20732:26956:0523/204022.818:ERROR:disk_cache.cc(184)] Unable to create cache
+May 23, 2020 20:40:22.89 [20732:26956:0523/204022.818:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+May 23, 2020 20:40:22.91 Opening in existing browser session.
+
+Sep 01, 2021 07:19:09.13 NEW SESSION
+Sep 01, 2021 07:19:09.13 [3744:9608:0901/071909.127:ERROR:device_event_log_impl.cc(214)] [07:19:09.127] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:19:09.13 [3744:9608:0901/071909.128:ERROR:device_event_log_impl.cc(214)] [07:19:09.128] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:19:09.13 [3744:9608:0901/071909.129:ERROR:device_event_log_impl.cc(214)] [07:19:09.129] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:19:09.21 [3744:12664:0901/071909.214:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 07:20:31.79 [7684:15384:0901/072031.791:ERROR:device_event_log_impl.cc(214)] [07:20:31.792] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:20:31.79 [7684:15384:0901/072031.792:ERROR:device_event_log_impl.cc(214)] [07:20:31.792] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:20:31.79 [7684:15384:0901/072031.793:ERROR:device_event_log_impl.cc(214)] [07:20:31.793] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:20:31.80 [7684:13116:0901/072031.806:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 07:21:00.20 [7684:13116:0901/072100.204:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 07:29:57.02 [14528:3264:0901/072957.020:ERROR:device_event_log_impl.cc(214)] [07:29:57.021] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:29:57.02 [14528:3264:0901/072957.021:ERROR:device_event_log_impl.cc(214)] [07:29:57.021] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:29:57.02 [14528:3264:0901/072957.022:ERROR:device_event_log_impl.cc(214)] [07:29:57.022] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 07:29:57.04 [14528:7340:0901/072957.040:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 07:30:23.88 [14528:7340:0901/073023.884:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 07:31:21.77 [14528:7340:0901/073121.776:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 07:33:01.38 [14528:7340:0901/073301.384:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 07:35:51.20 [14528:7340:0901/073551.209:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 08:27:03.94 [14528:7340:0901/082703.945:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 09:21:07.48 [14528:7340:0901/092107.484:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 09:21:30.92 [14528:7340:0901/092130.924:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 09:22:27.24 [14528:7340:0901/092227.245:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 09:24:15.23 [14528:7340:0901/092415.230:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 09:26:29.62 [14528:7340:0901/092629.621:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Sep 01, 2021 09:27:20.33 [14528:3264:0901/092720.335:ERROR:device_event_log_impl.cc(214)] [09:27:20.334] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Sep 01, 2021 09:27:20.34 [14528:3264:0901/092720.340:ERROR:device_event_log_impl.cc(214)] [09:27:20.341] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Sep 01, 2021 09:28:34.49 [14528:7340:0901/092834.493:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Sep 01, 2021 09:28:35.99 [14528:7340:0901/092835.990:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 09:29:25.70 [14528:7340:0901/092925.705:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 09:31:25.21 [14528:7340:0901/093125.214:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 09:31:44.45 [14528:3264:0901/093144.452:ERROR:device_event_log_impl.cc(214)] [09:31:44.451] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Sep 01, 2021 09:38:13.85 [14528:3264:0901/093813.853:ERROR:device_event_log_impl.cc(214)] [09:38:13.854] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 01, 2021 09:38:13.87 [14528:3264:0901/093813.876:ERROR:device_event_log_impl.cc(214)] [09:38:13.877] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Sep 01, 2021 09:38:13.88 [14528:3264:0901/093813.886:ERROR:device_event_log_impl.cc(214)] [09:38:13.886] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Sep 01, 2021 10:48:23.16 [14528:7340:0901/104823.162:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 10:48:43.39 [14528:7340:0901/104843.389:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 10:49:41.56 [14528:7340:0901/104941.562:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 10:51:27.28 [14528:7340:0901/105127.287:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 10:54:18.52 [14528:7340:0901/105418.525:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 10:59:44.61 [14528:7340:0901/105944.612:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 11:09:44.61 [14528:7340:0901/110944.616:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 11:19:44.61 [14528:7340:0901/111944.618:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 19:23:24.91 [14528:7340:0901/192324.908:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 19:23:26.83 [14528:7340:0901/192326.830:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 19:24:11.89 [14528:7340:0901/192411.893:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 19:25:46.31 [14528:7340:0901/192546.317:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 19:28:53.87 [14528:7340:0901/192853.873:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 19:34:51.54 [14528:7340:0901/193451.541:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 19:44:51.54 [14528:7340:0901/194451.545:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 19:54:51.54 [14528:7340:0901/195451.547:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 20:04:51.55 [14528:7340:0901/200451.550:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 20:14:51.55 [14528:7340:0901/201451.553:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 20:24:51.55 [14528:7340:0901/202451.556:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 20:33:30.90 [14528:13964:0901/203330.905:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 01, 2021 20:34:15.91 [14528:3120:0901/203415.911:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 01, 2021 20:34:51.56 [14528:7340:0901/203451.559:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 20:35:23.42 [14528:3120:0901/203523.421:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 01, 2021 20:37:04.68 [14528:4100:0901/203704.682:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 01, 2021 20:41:17.81 [14528:4100:0901/204117.811:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 01, 2021 20:44:51.56 [14528:7340:0901/204451.562:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 01, 2021 20:51:17.81 [14528:13964:0901/205117.816:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 01, 2021 20:54:51.56 [14528:7340:0901/205451.565:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+
+Sep 10, 2021 18:55:10.59 NEW SESSION
+Sep 10, 2021 18:55:10.59 [14404:12848:0910/185510.591:ERROR:device_event_log_impl.cc(214)] [18:55:10.591] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 10, 2021 18:55:10.61 [14404:12848:0910/185510.593:ERROR:device_event_log_impl.cc(214)] [18:55:10.593] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 10, 2021 18:55:10.61 [14404:12848:0910/185510.596:ERROR:device_event_log_impl.cc(214)] [18:55:10.596] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 10, 2021 19:12:21.28 [10892:2112:0910/191221.286:ERROR:device_event_log_impl.cc(214)] [19:12:21.286] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 10, 2021 19:12:21.28 [10892:2112:0910/191221.288:ERROR:device_event_log_impl.cc(214)] [19:12:21.287] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 10, 2021 19:12:21.29 [10892:2112:0910/191221.290:ERROR:device_event_log_impl.cc(214)] [19:12:21.290] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 10, 2021 20:54:32.37 [10892:11724:0910/205432.378:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 20:54:58.63 [10892:11724:0910/205458.635:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 20:55:56.59 [10892:11724:0910/205556.598:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 20:57:38.11 [10892:11724:0910/205738.115:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 21:00:56.39 [10892:11724:0910/210056.393:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 21:08:17.61 [10892:11724:0910/210817.616:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 21:18:17.62 [10892:11724:0910/211817.619:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 21:28:17.62 [10892:11724:0910/212817.622:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 21:38:17.62 [10892:11724:0910/213817.625:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 21:48:17.62 [10892:11724:0910/214817.628:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 21:58:17.63 [10892:11724:0910/215817.632:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 22:08:17.63 [10892:11724:0910/220817.635:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 22:18:17.63 [10892:11724:0910/221817.639:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 22:28:17.64 [10892:11724:0910/222817.642:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 10, 2021 22:38:17.64 [10892:11724:0910/223817.645:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 01:56:36.19 [10892:11724:0911/015636.189:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 08:46:53.09 [10892:11724:0911/084653.093:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 08:46:53.11 [10892:5796:0911/084653.098:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 11, 2021 08:47:38.10 [10892:6768:0911/084738.100:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 11, 2021 08:47:41.05 [10892:11724:0911/084741.051:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 08:48:45.61 [10892:16840:0911/084845.616:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 11, 2021 08:49:08.92 [10892:11724:0911/084908.927:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 11:26:40.86 [10892:11724:0911/112640.868:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Sep 11, 2021 11:26:42.70 [10892:11724:0911/112642.703:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 11:27:38.08 [10892:11724:0911/112738.085:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 11:49:38.36 [10892:11724:0911/114938.365:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 11:50:05.52 [10892:11724:0911/115005.529:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 11:50:53.97 [10892:11724:0911/115053.969:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 11:52:49.57 [10892:11724:0911/115249.571:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 11:56:11.83 [10892:11724:0911/115611.835:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 12:02:07.45 [10892:11724:0911/120207.451:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 12:12:07.45 [10892:11724:0911/121207.452:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 12:22:07.45 [10892:11724:0911/122207.454:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Sep 11, 2021 12:32:07.45 [10892:11724:0911/123207.455:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106

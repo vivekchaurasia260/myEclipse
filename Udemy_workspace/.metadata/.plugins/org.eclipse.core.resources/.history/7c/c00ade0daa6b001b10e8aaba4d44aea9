@@ -1,0 +1,29 @@
+package Default;
+
+class Movie {
+	private String name;
+	
+	public Movie(String name) {
+		this.name=name;
+	}
+	
+	public String plot() {
+		return "No plot here";
+	}
+}
+
+class Jaws extends Movie {
+	
+	public Jaws() {
+		
+	}
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

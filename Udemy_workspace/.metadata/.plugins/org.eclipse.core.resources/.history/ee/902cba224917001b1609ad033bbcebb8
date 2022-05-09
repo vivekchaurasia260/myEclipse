@@ -1,0 +1,12 @@
+
+public class NumberInWord {
+
+	public static void printNumberInWord(int num) {
+		
+		switch(num) {
+			
+		case 0;
+			System.out.println("Zero");
+		}
+	}
+}

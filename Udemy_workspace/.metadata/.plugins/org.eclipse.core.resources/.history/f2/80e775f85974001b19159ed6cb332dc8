@@ -1,0 +1,32 @@
+package ProjectDemo;
+
+public class Hamburger {
+	private String breadRollType;
+	private String meat;
+	private double price;
+	private String name;
+	
+	private String additional1Name;
+	private int additional1Price;
+	
+	private String additional2Name;
+	private int additional2Price;
+	
+	private String additional3Name;
+	private int additional3Price;
+	
+	private String additional4Name;
+	private int additional4Price;
+	
+	
+	public Hamburger(String breadRollType, String meat, double price, String name) {
+		this.breadRollType=breadRollType;
+		this.meat=meat;
+		this.price=price;
+		this.name=name;
+	}
+	
+		
+	
+	
+}

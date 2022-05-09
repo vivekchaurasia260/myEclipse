@@ -1,0 +1,16 @@
+package Java8Features;
+
+public class MethodReference {
+
+	public static void main(String[] args) {
+		
+		Runnable r = ()->{
+			
+			System.out.println("Child Thread");
+			
+		}
+		
+
+	}
+
+}

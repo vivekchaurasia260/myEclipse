@@ -1,0 +1,23 @@
+package Overloading;
+
+import java.util.Scanner;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		
+		String str = scan.nextLine();
+		
+		
+		StringBuilder sb = new  StringBuilder(str);
+		String reverse = sb.reverse().toString();
+		
+		
+		
+		
+		
+	}
+
+}

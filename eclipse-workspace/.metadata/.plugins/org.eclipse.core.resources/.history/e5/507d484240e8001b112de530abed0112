@@ -1,0 +1,35 @@
+package ASimulatorSystem;
+
+import java.awt.event.*;
+
+import javax.swing.*;
+
+public class Signup3 extends JFrame implements ActionListener {
+	
+	JRadioButton r1,r2,r3,r4;
+	JLabel l1,l2,l3,l4,l5,l6,l7,l8;
+	JCheckBox c1,c2,c3,c4,c5;
+	JButton b1,b2;
+	
+	Signup3() {
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

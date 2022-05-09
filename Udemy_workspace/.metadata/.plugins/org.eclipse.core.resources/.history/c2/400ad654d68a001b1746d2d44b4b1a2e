@@ -1,0 +1,39 @@
+package String;
+
+import java.util.Scanner;
+
+public class DigitCount {
+	public static void main(String[] args) {
+//		Scanner scan=new Scanner(System.in);
+//		String str=scan.nextLine();
+//		int digiCount=0;
+//		for(int i=0; i<str.length(); i++) {
+//			if(str.charAt(i)>=48 && str.charAt(i)<58) {
+//				digiCount++;
+//			}
+//		}
+//		
+//		System.out.println("Total digits in String are " +digiCount);
+		
+		
+		
+		String str = "I will eat 2 burgers 23 fries & 1.25 cokes l8r";
+        int digits = 0;
+        boolean isDigit=false;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) >= 48 && str.charAt(i) <= 57) {
+               
+                if(!isDigit)
+                digits++;
+           
+            isDigit=true;
+            }
+            else
+                isDigit=false;
+        }
+       
+        System.out.println("Total number of Digits = "
+                           + digits);
+	}
+
+}

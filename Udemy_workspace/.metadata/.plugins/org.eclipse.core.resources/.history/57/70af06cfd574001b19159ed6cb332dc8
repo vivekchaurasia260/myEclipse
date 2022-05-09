@@ -1,0 +1,17 @@
+package ProjectDemo;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Hamburger hamburger=new Hamburger("Basic", "Sausage", 3.56, "White");
+		double price =hamburger.itemizeHamburger();
+		System.out.println("Total price on Order "+price);
+		
+		hamburger.addHamburgerAdditional1("Tomato", 0.27);
+		hamburger.addHamburgerAdditional2("Lettuce", 0.75);
+		hamburger.addHamburgerAdditional3("Cheese", 1.1);
+		price=hamburger.
+		
+		System.out.println("Total Burger price on Order "+itemizeHamburger());
+	}
+}

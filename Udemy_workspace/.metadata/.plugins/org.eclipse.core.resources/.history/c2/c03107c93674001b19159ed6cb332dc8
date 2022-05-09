@@ -1,0 +1,11 @@
+package ProjectDemo;
+
+public class Healthyburger extends Hamburger{
+	
+	public Healthyburger(String breadRollType, boolean meat, int price) {
+		super(breadRollType, meat, price);
+	}
+	
+	
+
+}

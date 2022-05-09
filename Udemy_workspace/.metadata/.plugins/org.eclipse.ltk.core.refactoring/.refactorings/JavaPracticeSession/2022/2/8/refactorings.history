@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Java8Features.Consumer&apos; to &apos;ConsumerFunction&apos;&#x0D;&#x0A;- Original project: &apos;JavaPracticeSession&apos;&#x0D;&#x0A;- Original element: &apos;Java8Features.Consumer&apos;&#x0D;&#x0A;- Renamed element: &apos;Java8Features.ConsumerFunction&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Consumer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Java8Features{Consumer.java[Consumer" matchStrategy="1" name="ConsumerFunction" qualified="false" references="true" similarDeclarations="false" stamp="1644730431131" textual="false" version="1.0"/>
+</session>

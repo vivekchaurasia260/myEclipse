@@ -1,0 +1,48 @@
+package DemoProgram1;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class FrequencyNum {
+
+	public static void main(String[] args) {
+		
+/*		int A[] = {6, 4, 6, 4, 1, 8, 2, 4, 1, 1};
+		
+		Map<Integer, Integer> map = new LinkedHashMap<>();
+		
+		for(int i=0; i<A.length; i++) {
+			
+			int temp = map.getOrDefault(A[i], 0);
+			
+			map.put(A[i], ++temp);			
+		}
+		
+		map.entrySet().stream().filter(entry -> entry.getValue() > 1).forEach(entry -> {
+			
+			
+			System.out.println(entry.getKey()+"---" + entry.getValue());
+			
+		
+		});
+		
+*/		
+		
+		//	2. Java program to count the occurrence of each character in a string using Hashmap
+		
+		String str = "GeeksForGeeks";
+		
+		Map<Character, Integer> map = new HashMap<>();
+		
+		for(int i=0; i<str.length(); i++) {
+			
+			int temp = map.getOrDefault(str.charAt(i), 0);
+			
+			map.put(str.charAt(i), ++temp);			
+		}
+		
+		
+
+	}
+
+}

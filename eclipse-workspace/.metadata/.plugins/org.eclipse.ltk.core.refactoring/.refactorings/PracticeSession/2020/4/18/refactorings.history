@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DefaultPackage.PriorityQueue&apos; to &apos;PQueue&apos;&#x0D;&#x0A;- Original project: &apos;PracticeSession&apos;&#x0D;&#x0A;- Original element: &apos;DefaultPackage.PriorityQueue&apos;&#x0D;&#x0A;- Renamed element: &apos;DefaultPackage.PQueue&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PriorityQueue&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;DefaultPackage{PriorityQueue.java[PriorityQueue" matchStrategy="1" name="PQueue" qualified="false" references="true" similarDeclarations="false" stamp="1587876039475" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+127.0.0.1 - - [28/Aug/2021:13:49:44 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [28/Aug/2021:13:49:45 +0530] "GET /servletdemo/index.html HTTP/1.1" 200 98
+0:0:0:0:0:0:0:1 - - [28/Aug/2021:13:49:45 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [28/Aug/2021:13:49:51 +0530] "GET /servletdemo/MvcDemoServletTwo HTTP/1.1" 200 676
+0:0:0:0:0:0:0:1 - - [28/Aug/2021:13:51:36 +0530] "GET /servletdemo/MvcDemoServletTwo HTTP/1.1" 200 676

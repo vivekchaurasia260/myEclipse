@@ -1,0 +1,24 @@
+
+public class Animal {
+
+	private String name;
+	private int brain;
+	private int body;
+	private int size;
+	private int weight;
+	
+	public Animal() {
+		System.out.println("Default Constructor");
+	}
+	
+	public Animal(String name, int brain, int body, int size, int weight) {
+		super();
+		this.name = name;
+		this.brain = brain;
+		this.body = body;
+		this.size = size;
+		this.weight = weight;
+	}
+	
+	
+}

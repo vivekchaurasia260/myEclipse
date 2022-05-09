@@ -1,0 +1,46 @@
+
+public class CarpetCost {
+	 double length, width;
+	
+	public CarpetCost(double length, double width) {
+		if(length<0)
+			this.length=0;
+		else
+			this.length=length;
+		if(width<0)
+			this.width=0;
+		else 
+			this.width=width;
+	}
+	public double getArea() {
+		return length*width;
+	}
+	
+}
+
+class Carpet {
+	double cost;
+	
+	public Carpet(double cost) {
+		if(cost<0)
+			this.cost=0;
+		else
+			this.cost=cost;
+	}
+	
+	public double getCost() {
+		return cost;
+	}
+}
+class Calculator {
+	CarpetCost floor;
+	Carpet carpet;
+	
+	public Calculator(CarpetCost floor, Carpet carpet) {
+		this.floor=floor;
+		this.carpet=carpet;
+	}
+	public double getTotalCost() {
+		return 1;
+	}
+}

@@ -1,0 +1,12 @@
+package _30_Day_challenge;
+
+public class Day_14_Scope {
+	
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Difference {
+	
+}
