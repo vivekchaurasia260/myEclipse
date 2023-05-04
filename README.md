@@ -4,5 +4,3 @@ Eclipse is a IDE.
 
 Coding
 
-
-
