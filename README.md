@@ -8,10 +8,3 @@ Coding
 sfgsf
 sd
 sg
-gsfg
-
-sfgs
-fgfs
-gs
-wtrw
-rwt
