@@ -4,10 +4,5 @@ Eclipse is a IDE.
 
 Coding
 
-
-sfgsf
-sd
-sg
-iug
 jhg
 jjjj
