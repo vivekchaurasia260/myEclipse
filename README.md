@@ -9,6 +9,3 @@ xgd
 dg
 
 dgfsg
-s
-fg
-sfg
