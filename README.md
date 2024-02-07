@@ -6,7 +6,3 @@ Coding
 
 jhg
 xgd
-dg
-
-dgfs
-sfg
