@@ -5,6 +5,3 @@ Eclipse is a IDE.
 Coding
 
 jhg
-adf
-sfg
-fs
