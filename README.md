@@ -6,6 +6,3 @@ Coding
 
 jhgdsaf
 dsada
-fsg
-sfg
-sfg
