@@ -7,6 +7,4 @@ Coding
 jhggfsd
 
 fsdg
-sfg
-wsgf
 sf
