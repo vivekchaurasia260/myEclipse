@@ -7,5 +7,3 @@ Coding
 fdasg
 dagf
 adsf
-fs
-dagwf
