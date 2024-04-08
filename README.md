@@ -7,5 +7,3 @@ Coding
 fdasg
 dagf
 sfgf
-dwg
-s
