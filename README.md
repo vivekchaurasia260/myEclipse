@@ -8,6 +8,4 @@ fdasg
 dagf
 sfgf
 dwg
-sfg
-wgf
-sfg
+s
