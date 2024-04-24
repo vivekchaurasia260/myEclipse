@@ -7,6 +7,4 @@ Coding
 fdasg
 dagf
 sfgf
-sdgsfg
-gh'fgfg
-sfgg
+sdgsf
