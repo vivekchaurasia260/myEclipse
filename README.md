@@ -6,5 +6,3 @@ Coding
 
 fdasg
 dagf
-sfgf
-s
