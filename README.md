@@ -6,6 +6,3 @@ Coding
 
 fdasdfg
 sdfg
-sf
-sdgsfg
-sfg
