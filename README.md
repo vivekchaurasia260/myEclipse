@@ -6,6 +6,4 @@ Coding
 
 fd
 s
-sfgsfh
-zdgs
-sfg
+s
